@@ -1,0 +1,27 @@
+
+9:20 - Start
+10:30 Unity is Done Downloading
+10:30 - 11:30_Spruce up Movement (d)
+11:30 - 1:00_Implement Player 2 (v)
+1:00 - 2:30_LUNCH
+2:30 - 3:30_Placeholder Sprite Implementation
+	_import assets
+	_animations
+3:30 - 4:00
+
+
+
+
+Animation Guide
+1. Import new asset into assets folder
+2. divide sprite sheet ('multiple' sprite sheet)
+3. splice sheet accordingly
+4. drag set of animated sprites from sheet to screen and save as .anim file
+5. Hierarchy moniker:
+
+GameObject -> Animator -> Controller -> Motion -> Sprite
+
+The GameObject (bone) is connected to the…Animator (bone).
+The Animator (bone) is connected to the…Controller (bone).
+The Controller (bone) is connected to the…Motion (bone).
+The Motion (bone) is connected to the…Sprite (bone).
