@@ -68,6 +68,8 @@ public class InputManager : MonoBehaviour
 			if (Input.GetKey (KeyCode.A)) { return DIRECTION.LEFT; }
 			if (Input.GetKey (KeyCode.S)) { return DIRECTION.DOWN; }
 			if (Input.GetKey (KeyCode.D)) { return DIRECTION.RIGHT; }
+			if (Input.GetAxis ("HorizontalJoy1") < -STICKTHRESH) { return DIRECTION.LEFT; }
+			if (Input.GetAxis ("HorizontalJoy1") > STICKTHRESH) { return DIRECTION.RIGHT; }
 			//if (Input.GetKey (KeyCode.W) || ) { } // jumps should use getkeydown; maybe this can be used for a glide instead
 			break;
 		case 2:
@@ -79,6 +81,8 @@ public class InputManager : MonoBehaviour
 			if (Input.GetKey (KeyCode.LeftArrow)) { return DIRECTION.LEFT; }
 			if (Input.GetKey (KeyCode.DownArrow)) { return DIRECTION.DOWN; }
 			if (Input.GetKey (KeyCode.RightArrow)) { return DIRECTION.RIGHT; }
+			if (Input.GetAxis ("HorizontalJoy2") < -STICKTHRESH) { return DIRECTION.LEFT; }
+			if (Input.GetAxis ("HorizontalJoy2") > STICKTHRESH) { return DIRECTION.RIGHT; }
 			break;
 		default:
 			break;
@@ -95,9 +99,11 @@ public class InputManager : MonoBehaviour
 		//if (Input.GetKey (KeyCode.S)) { return DIRECTION.DOWN; } // maybe for drop-downs?
 		case 1:
 			if (Input.GetKeyDown (KeyCode.W)) { return DIRECTION.JUMP; }
+			if(Input.GetKeyDown(KeyCode.Joystick1Button0)){ return DIRECTION.JUMP; }
 			break;
 		case 2:
 			if(Input.GetKeyDown(KeyCode.UpArrow)) { return DIRECTION.JUMP; }
+			if(Input.GetKeyDown(KeyCode.Joystick2Button0)){ return DIRECTION.JUMP; }
 			break;
 		default:
 			break;
