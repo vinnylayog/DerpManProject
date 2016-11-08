@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
 			m_bIsJumping = false;
 			m_moveY = 0f;
 
-			float newYPos = (col.bounds.center.y + col.bounds.extents.y + m_playerCollider.bounds.extents.y) - m_playerCollider.offset.y ;
+			float newYPos = col.bounds.center.y + col.bounds.extents.y + m_playerCollider.bounds.extents.y;
 			m_thisTransform.position = new Vector2(m_thisTransform.position.x, newYPos);
 		}
 	}

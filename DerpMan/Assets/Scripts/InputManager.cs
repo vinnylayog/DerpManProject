@@ -99,11 +99,11 @@ public class InputManager : MonoBehaviour
 		//if (Input.GetKey (KeyCode.S)) { return DIRECTION.DOWN; } // maybe for drop-downs?
 		case 1:
 			if (Input.GetKeyDown (KeyCode.W)) { return DIRECTION.JUMP; }
-			if(Input.GetKeyDown(KeyCode.Joystick1Button0)){ return DIRECTION.JUMP; }
+			if (Input.GetKeyDown(KeyCode.Joystick1Button0)){ return DIRECTION.JUMP; }
 			break;
 		case 2:
-			if(Input.GetKeyDown(KeyCode.UpArrow)) { return DIRECTION.JUMP; }
-			if(Input.GetKeyDown(KeyCode.Joystick2Button0)){ return DIRECTION.JUMP; }
+			if (Input.GetKeyDown(KeyCode.UpArrow)) { return DIRECTION.JUMP; }
+			if (Input.GetKeyDown(KeyCode.Joystick2Button0)){ return DIRECTION.JUMP; }
 			break;
 		default:
 			break;
