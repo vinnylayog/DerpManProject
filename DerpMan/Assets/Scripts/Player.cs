@@ -23,6 +23,8 @@ public class Player : MonoBehaviour
 	#region MonoBehavior
 	private void OnTriggerEnter2D (Collider2D col)
 	{
+		// ALERT ALERT FIX FIX NOT WORKING BESTLY OPTIMIZE PLS K THANKS
+		if (col.tag == "Stage")
 		{
 			m_lastCollided = col;
 			m_moveDirection.y = 0.0f;
@@ -30,10 +32,9 @@ public class Player : MonoBehaviour
 			m_bIsJumping = false;
 			m_moveY = 0f;
 
-			m_thisTransform.position = new Vector2(m_thisTransform.position.x, (col.transform.position.y + col.bounds.size.y));
+			float newYPos = (col.bounds.center.y + col.bounds.extents.y + m_playerCollider.bounds.extents.y) - m_playerCollider.offset.y ;
+			m_thisTransform.position = new Vector2(m_thisTransform.position.x, newYPos);
 		}
-
-		//Debug.Log(col.name + "dave " + m_moveDirection);
 	}
 	#endregion // MonoBehavior
 
@@ -69,147 +70,39 @@ public class Player : MonoBehaviour
 		m_lastCollided = null;
 		setMyPosition();
 		m_playerCollider = GetComponent<BoxCollider2D>();
+		m_playerAnim = GetComponent<Animator>();
 	}
 
 	public void ManualUpdate ()
 	{
 		//_ManageMovement();
-
-		_Movement();
+		_ManageAnimationController();
+		_ManageMovement();
 	}
 
+
+	#region Movement
 	public void Jump ()
 	{
 		
 	}
 
-	private void _ManageMovement ()
-	{
-		//_ManageMovementX();
-		//_ManageMovementY();
-
-		// Apply Movement
-		//m_thisTransform.Translate(m_moveDirection*Time.deltaTime);
-	}
-
-	private void _ManageMovementX ()
-	{
-		float mspd 			= PlayerManager.Instance.MoveSpeed;
-		float limitCoeff 	= PlayerManager.Instance.MoveSpeedLimitCoefficient; // coefficient of current movespeed used to determine existing speed limit
-		float inertiaCoeff	= PlayerManager.Instance.InertiaCoefficient;
-		float totalMovement = mspd * limitCoeff * Time.deltaTime;
-
-		// movedirection compared against tiny threshold instead of 0 to prevent "foxtrot" trick
-		bool isMovingRight = (m_moveDirection.x > -mspd); 
-		bool isMovingLeft = (m_moveDirection.x < mspd);
-
-		bool isMovingRightInertial = (m_moveDirection.x > 0f);
-		bool isMovingLeftInertial = (m_moveDirection.x < 0f);
-		// Move. move code to inputmanager later?
-		if (Input.GetKey(KeyCode.A))
-		{
-			if (isMovingRight)
-			{
-				if (m_moveDirection.x > (-totalMovement))
-				{
-					// Sharper turns. Higher intensity if changing direction
-					m_moveDirection.x -= totalMovement;
-				}
-				else
-				{
-					m_moveDirection.x -= mspd * Time.deltaTime;
-				}
-			}
-			else
-			{
-				//Debug.Log(Time.time + " " + m_moveDirection.x);
-				m_moveDirection.x = -mspd;
-			}
-		}
-		else
-			if (Input.GetKey(KeyCode.D))
-			{
-				if (isMovingLeft)
-				{
-                    // 
-					if (m_moveDirection.x < -totalMovement)
-					{
-						// Sharper turns. Higher intensity if changing direction
-						m_moveDirection.x += totalMovement;
-					}
-					else
-					{
-						m_moveDirection.x += mspd * Time.deltaTime;
-					}
-				}
-				else
-				{
-					//Debug.Log(Time.time + " " + m_moveDirection.x);
-					m_moveDirection.x = mspd;
-				}
-			}
-			else
-			{
-				// Inertia
-				float inertiaSlowDownSpeed = mspd * inertiaCoeff * Time.deltaTime;
-				if (isMovingRightInertial)
-				{
-					m_moveDirection.x -= inertiaSlowDownSpeed;
-					if (m_moveDirection.x < 0f)
-					{
-						m_moveDirection.x = 0f;
-					}
-				}
-				else
-				if (isMovingLeftInertial)
-				{
-					m_moveDirection.x += inertiaSlowDownSpeed;
-					if (m_moveDirection.x > 0f)
-					{
-						m_moveDirection.x = 0f;
-					}
-				}
-			}
-		
-	}
-
-	private void _ManageMovementY ()
-	{
-		// if not on ground
-		if (m_lastCollided == null)
-		{
-			// apply gravity
-			//m_moveDirection.y -= PlayerManager.Instance.Gravity*Time.deltaTime;
-			m_moveY -= PlayerManager.Instance.Gravity*Time.deltaTime;
-		}
-
-		// Jump. move code to InputManager later
-		if (Input.GetKeyDown(KeyCode.Space))
-		{
-			// apply jump magnitude
-			//m_moveDirection.y = PlayerManager.Instance.JumpSpeed;
-			m_moveY = PlayerManager.Instance.JumpSpeed;
-			m_lastCollided = null;
-		}
-	}
-
-	// NEW MOVEMENT
 	private static 	float ACCEL_X 		= 2f;
 	private static 	float DECEL_X 		= 1.5f;
 	private static	float LIMIT_X 		= 0.2f;
 
 	private 		float m_moveX 		= 0f;
 
-	private void _Movement () 
+	private void _ManageMovement () 
 	{
-		_MovementX();
-		_MovementY();
+		_ManageMovementX();
+		_ManageMovementY();
 		m_thisTransform.Translate(m_moveX, m_moveY, 0f);
 		//Debug.Log (m_moveX + " " + m_moveY);
 		//m_thisTransform.position = new Vector2(m_thisTransform.position.x + m_moveX, m_thisTransform.position.y + m_moveY);
 	}
 
-	private void _MovementX ()
+	private void _ManageMovementX ()
 	{
 		float currFrame_moveX = ACCEL_X * Time.fixedDeltaTime;
 		float currFrame_decelX = DECEL_X * Time.fixedDeltaTime;
@@ -274,7 +167,7 @@ public class Player : MonoBehaviour
 	private	float 	m_moveY 		= 0f;
 
 
-	private void _MovementY ()
+	private void _ManageMovementY ()
 	{
 		//_ManageMovementY();
 		if (InputManager.Instance.GetKey(m_playerID) == InputManager.DIRECTION.JUMP) 
@@ -327,6 +220,61 @@ public class Player : MonoBehaviour
 
 		return InputManager.Instance.GetKey (m_playerID);
 	}
+
+	#endregion // Movement
+
+	#region Animation Control
+
+	private Animator m_playerAnim = null;
+
+	private void _ManageAnimationController ()
+	{
+		/*
+		float vert = Input.GetAxis("Vertical");
+		float hori = Input.GetAxis("Horizontal");
+
+		if (vertical > 0)
+		{
+			animator.SetInteger("Direction", 2);
+		}
+		else if (vertical < 0)
+		{
+			animator.SetInteger("Direction", 0);
+		}
+		else if (horizontal > 0)
+		{
+			animator.SetInteger("Direction", 1);
+		}
+		else if (horizontal < 0)
+		{
+			animator.SetInteger("Direction", 3);
+		}
+		*/
+
+		if (m_playerAnim == null)
+			return;
+
+		InputManager.DIRECTION charDirection = InputManager.Instance.GetDirection(m_playerID);
+		switch (charDirection)
+		{
+		case InputManager.DIRECTION.DOWN:
+			m_playerAnim.SetInteger("Direction", 0);
+			break;
+		case InputManager.DIRECTION.LEFT:
+			m_playerAnim.SetInteger("Direction", 1);
+			break;
+		case InputManager.DIRECTION.UP:
+			m_playerAnim.SetInteger("Direction", 2);
+			break;
+		case InputManager.DIRECTION.RIGHT:
+			m_playerAnim.SetInteger("Direction", 3);
+			break;
+		default:
+			break;
+		}
+	}
+
+	#endregion // Animation Control
 }
 
 
