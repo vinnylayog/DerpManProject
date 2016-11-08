@@ -13,16 +13,25 @@ public class Player : MonoBehaviour
 
 	private ORIENTATION 	m_orientation 		= ORIENTATION.RIGHT;
 
+	private GameObject		m_spriteObj			= null;
+	private GameObject		m_colliderObj		= null;
+
 	private	BoxCollider2D	m_playerCollider	= null;
 	private Collider2D 		m_lastCollided 		= null;
 	private Transform 		m_thisTransform 	= null;
-	private Vector2 		m_moveDirection 	= Vector2.zero;
+	private Vector2 		m_newPosition 		= Vector2.zero;
+	private Vector2			m_prvPosition		= Vector2.zero;
 
 	private int 			m_playerID			= 0;
+	private bool			m_bIsFalling		= true;
+
+	// For efficiency
+	private int m_layerMask = 0;
 
 	#region MonoBehavior
 	private void OnTriggerEnter2D (Collider2D col)
 	{
+		/*
 		// ALERT ALERT FIX FIX NOT WORKING BESTLY OPTIMIZE PLS K THANKS
 		if (col.tag == "Stage")
 		{
@@ -32,9 +41,10 @@ public class Player : MonoBehaviour
 			m_bIsJumping = false;
 			m_moveY = 0f;
 
-			float newYPos = col.bounds.center.y + col.bounds.extents.y + m_playerCollider.bounds.extents.y;
+			float newYPos = (col.bounds.center.y + col.bounds.extents.y + m_playerCollider.bounds.extents.y) * col.transform.localScale.y - m_playerCollider.offset.y ;
 			m_thisTransform.position = new Vector2(m_thisTransform.position.x, newYPos);
 		}
+		*/
 	}
 	#endregion // MonoBehavior
 
@@ -69,16 +79,46 @@ public class Player : MonoBehaviour
 		m_thisTransform = transform;
 		m_lastCollided = null;
 		setMyPosition();
-		m_playerCollider = GetComponent<BoxCollider2D>();
-		m_playerAnim = GetComponent<Animator>();
+
+		m_spriteObj = m_thisTransform.FindChild("sprite").gameObject; 
+		m_colliderObj = m_thisTransform.FindChild("collider").gameObject; 
+		m_playerCollider = m_colliderObj.GetComponent<BoxCollider2D>();
+		m_playerAnim = m_spriteObj.GetComponent<Animator>();
+
+		// Stage Raycasts: Layer Mask. At time of implementation, stage layer is set to 8
+		int layerToCheck = 8;
+
+		m_layerMask = 1 << 8;
 	}
 
 	public void ManualUpdate ()
 	{
-		//_ManageMovement();
-		_ManageAnimationController();
+		_ManageAnimation();
 		_ManageMovement();
 	}
+
+	#region Basic Collision Checking - Raycasts
+
+
+	private bool _CheckGround ()
+	{
+		if (!m_bIsJumping)
+			return true;
+
+		if (!_IsNewLocationValid(InputManager.DIRECTION.DOWN))
+		{
+			if (m_bIsFalling)
+			{
+				m_moveY = 0f;
+			}
+			m_bIsJumping = false;
+			return false;
+		}
+
+		return false;
+	}
+
+	#endregion //Basic Collision Checking - Raycasts
 
 
 	#region Movement
@@ -95,20 +135,33 @@ public class Player : MonoBehaviour
 
 	private void _ManageMovement () 
 	{
-		_ManageMovementX();
-		_ManageMovementY();
+		if (m_prvPosition.y > m_thisTransform.position.y)
+		{
+			m_bIsFalling = true;
+		}
+
+		m_prvPosition = m_thisTransform.position;
+
+		_CalculateX(GetKeyDirection());
+
+		_CheckGround();
+
+		_CalculateY(GetKeyDownDirection());
+
+
+		m_newPosition.x = m_thisTransform.position.x + m_moveX;
+		m_newPosition.y = m_thisTransform.position.y + m_moveY;
+
 		m_thisTransform.Translate(m_moveX, m_moveY, 0f);
-		//Debug.Log (m_moveX + " " + m_moveY);
-		//m_thisTransform.position = new Vector2(m_thisTransform.position.x + m_moveX, m_thisTransform.position.y + m_moveY);
 	}
 
-	private void _ManageMovementX ()
+	private void _CalculateX (InputManager.DIRECTION input)
 	{
 		float currFrame_moveX = ACCEL_X * Time.fixedDeltaTime;
 		float currFrame_decelX = DECEL_X * Time.fixedDeltaTime;
 
 		// Inline Input
-		switch (GetKeyDirection()) 
+		switch (input) 
 		{
 		case InputManager.DIRECTION.LEFT:
 			if (m_moveX > 0f) 
@@ -159,29 +212,77 @@ public class Player : MonoBehaviour
 		m_moveX = Mathf.Clamp(m_moveX, -LIMIT_X, LIMIT_X);
 	}
 
-	private bool 	m_bIsJumping 		= false;
+	private bool 	m_bIsJumping 		= true;
 
 	private static float JUMP_STRENGTH 	= 0.25f;
 	private static float GRAV_STRENGTH 	= 1f;
 	private static float FALL_LIMIT		= 0.8f;
-	private	float 	m_moveY 		= 0f;
+	private	float 		 m_moveY 		= 0f;
 
 
-	private void _ManageMovementY ()
+	private void _CalculateY (InputManager.DIRECTION input)
 	{
-		//_ManageMovementY();
-		if (InputManager.Instance.GetKey(m_playerID) == InputManager.DIRECTION.JUMP) 
+		// Receive input and jump
+		if (input == InputManager.DIRECTION.JUMP) 
 		{
 			m_moveY = JUMP_STRENGTH;
 			m_bIsJumping = true;
 		}
+	
 
+		// if Midair
 		if (m_bIsJumping) 
 		{
 			m_moveY -= GRAV_STRENGTH * Time.deltaTime;
 		}
 
 		m_moveY = Mathf.Clamp(m_moveY, -FALL_LIMIT, FALL_LIMIT);
+	}
+
+	private bool _IsNewLocationValid (InputManager.DIRECTION direction)
+	{
+		Vector2 rectPosition 	= m_playerCollider.transform.position;
+		Vector2 rectSize 		= Vector2.zero; //new Vector2(m_playerCollider.bounds.size.x, m_playerCollider.bounds.size.y);
+		Vector2 castDirection 	= Vector2.zero;
+		Rect 	newColliderZone = new Rect(rectPosition, rectSize); 
+		float 	castDistance	= 0f;
+
+		switch (direction)
+		{
+		case InputManager.DIRECTION.DOWN:
+			castDirection = Vector2.down;
+			rectSize.x = m_playerCollider.bounds.size.x;
+			castDistance = m_playerCollider.bounds.extents.y + Mathf.Abs(m_playerCollider.offset.y);
+			break;
+		case InputManager.DIRECTION.LEFT:
+			castDirection = Vector2.left;
+			rectSize.y = m_playerCollider.bounds.size.y;
+			castDistance = m_playerCollider.bounds.extents.x + Mathf.Abs(m_playerCollider.offset.x);
+			break;
+		case InputManager.DIRECTION.UP:
+			castDirection = Vector2.up;
+			rectSize.x = m_playerCollider.bounds.size.x;
+			castDistance = m_playerCollider.bounds.extents.y + Mathf.Abs(m_playerCollider.offset.y);
+			break;
+		case InputManager.DIRECTION.RIGHT:
+			castDirection = Vector2.right;
+			rectSize.y = m_playerCollider.bounds.size.y;
+			castDistance = m_playerCollider.bounds.extents.x + Mathf.Abs(m_playerCollider.offset.x);
+			break;
+		default:
+			break;
+		}
+
+
+		RaycastHit2D hit = Physics2D.Raycast(m_newPosition, Vector2.down, castDistance, m_layerMask);
+
+		if (hit != null && hit.collider != null)
+		if (hit.collider.tag == "Stage")
+		{
+			m_thisTransform.position = new Vector2(m_thisTransform.position.x, hit.collider.gameObject.transform.position.y + castDistance + hit.collider.bounds.extents.y);
+			return false;
+		}
+		return true;
 	}
 
 	private enum DIRECTION
@@ -199,25 +300,11 @@ public class Player : MonoBehaviour
 
 	private InputManager.DIRECTION GetKeyDirection ()
 	{
-		/*
-		if (Input.GetKey (KeyCode.A)) { return DIRECTION.LEFT; }
-		if (Input.GetKey (KeyCode.S)) { return DIRECTION.DOWN; }
-		if (Input.GetKey (KeyCode.D)) { return DIRECTION.RIGHT; }
-		//if (Input.GetKey (KeyCode.W) || ) { } // jumps should use getkeydown; maybe this can be used for a glide instead
-		*/
-
 		return InputManager.Instance.GetDirection (m_playerID);
 	}
 
 	private InputManager.DIRECTION GetKeyDownDirection ()
 	{
-		/*
-		//if (Input.GetKey (KeyCode.S)) { return DIRECTION.DOWN; } // maybe for drop-downs?
-		if (Input.GetKeyDown(KeyCode.Space)) { return DIRECTION.JUMP; }
-
-		return DIRECTION.NEUTRAL;
-		*/
-
 		return InputManager.Instance.GetKey (m_playerID);
 	}
 
@@ -227,30 +314,8 @@ public class Player : MonoBehaviour
 
 	private Animator m_playerAnim = null;
 
-	private void _ManageAnimationController ()
+	private void _ManageAnimation ()
 	{
-		/*
-		float vert = Input.GetAxis("Vertical");
-		float hori = Input.GetAxis("Horizontal");
-
-		if (vertical > 0)
-		{
-			animator.SetInteger("Direction", 2);
-		}
-		else if (vertical < 0)
-		{
-			animator.SetInteger("Direction", 0);
-		}
-		else if (horizontal > 0)
-		{
-			animator.SetInteger("Direction", 1);
-		}
-		else if (horizontal < 0)
-		{
-			animator.SetInteger("Direction", 3);
-		}
-		*/
-
 		if (m_playerAnim == null)
 			return;
 

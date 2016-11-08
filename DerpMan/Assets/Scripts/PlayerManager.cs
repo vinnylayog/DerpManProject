@@ -49,7 +49,7 @@ public class PlayerManager : MonoBehaviour
 	public void ManualUpdate ()
 	{
 		m_playerOne.ManualUpdate();
-		m_playerTwo.ManualUpdate ();
+		//m_playerTwo.ManualUpdate ();
 	}
 
 	private void _ApplyGravity ()
@@ -83,11 +83,12 @@ public class PlayerManager : MonoBehaviour
 		m_playerOne.assignID (1);
 		m_playerOne.Initialize();
 
+		/*
 		m_playerTwoObj = GameObject.Instantiate (m_playerPrefab);
 		m_playerTwo = m_playerTwoObj.AddComponent<Player>();
 		m_playerTwo.assignID (2);
 		m_playerTwo.Initialize ();
-
+		*/
 	}
 
 	public bool IsInitialized
