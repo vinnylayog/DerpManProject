@@ -50,17 +50,17 @@ public class InputManager : MonoBehaviour
 
 	private	float STICKTHRESH 	= 0.1f;
 
-	public DIRECTION GetDirection (int playerID)
+	public DIRECTION GetInputAlways (int playerID)
 	{
-		return GetKeyDirection(playerID);
+		return _GetInputAlways(playerID);
 	}
 
-	public DIRECTION GetKey(int playerID)
+	public DIRECTION GetInputDown(int playerID)
 	{
-		return GetKeyDownDirection (playerID);	
+		return _GetInputDown (playerID);	
 	}
 
-	private DIRECTION GetKeyDirection (int playerID)
+	private DIRECTION _GetInputAlways (int playerID)
 	{
 		switch (playerID) 
 		{
@@ -93,17 +93,17 @@ public class InputManager : MonoBehaviour
 		return DIRECTION.NEUTRAL;
 	}
 
-	private DIRECTION GetKeyDownDirection (int playerID)
+	private DIRECTION _GetInputDown (int playerID)
 	{
 		switch (playerID){
 		//if (Input.GetKey (KeyCode.S)) { return DIRECTION.DOWN; } // maybe for drop-downs?
 		case 1:
 			if (Input.GetKeyDown (KeyCode.W)) { return DIRECTION.JUMP; }
-			if(Input.GetKeyDown(KeyCode.Joystick1Button0)){ return DIRECTION.JUMP; }
+			if (Input.GetKeyDown(KeyCode.Joystick1Button0)){ return DIRECTION.JUMP; }
 			break;
 		case 2:
-			if(Input.GetKeyDown(KeyCode.UpArrow)) { return DIRECTION.JUMP; }
-			if(Input.GetKeyDown(KeyCode.Joystick2Button0)){ return DIRECTION.JUMP; }
+			if (Input.GetKeyDown(KeyCode.UpArrow)) { return DIRECTION.JUMP; }
+			if (Input.GetKeyDown(KeyCode.Joystick2Button0)){ return DIRECTION.JUMP; }
 			break;
 		default:
 			break;
@@ -112,4 +112,5 @@ public class InputManager : MonoBehaviour
 		}
 		return DIRECTION.NEUTRAL;
 	}
+
 }

@@ -1,0 +1,5788 @@
+fileFormatVersion: 2
+guid: 3da44bb5b90c9124bbe7056aa4fcbb09
+timeCreated: 1479113215
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: south_neutral
+    21300002: south_walk_0
+    21300004: south_walk_1
+    21300006: south_walk_2
+    21300008: south_walk_3
+    21300010: south_walk_4
+    21300012: south_walk_5
+    21300014: angela no outline_7
+    21300016: angela no outline_8
+    21300018: angela no outline_9
+    21300020: angela no outline_10
+    21300022: angela no outline_11
+    21300024: angela no outline_12
+    21300026: angela no outline_13
+    21300028: angela no outline_14
+    21300030: angela no outline_15
+    21300032: angela no outline_16
+    21300034: angela no outline_17
+    21300036: angela no outline_18
+    21300038: angela no outline_19
+    21300040: angela no outline_20
+    21300042: angela no outline_21
+    21300044: east_neutral
+    21300046: east_walk_0
+    21300048: east_walk_1
+    21300050: east_walk_2
+    21300052: east_walk_3
+    21300054: east_walk_4
+    21300056: east_walk_5
+    21300058: angela no outline_29
+    21300060: angela no outline_30
+    21300062: angela no outline_31
+    21300064: angela no outline_32
+    21300066: angela no outline_33
+    21300068: angela no outline_34
+    21300070: angela no outline_35
+    21300072: angela no outline_36
+    21300074: angela no outline_37
+    21300076: angela no outline_38
+    21300078: angela no outline_39
+    21300080: angela no outline_40
+    21300082: angela no outline_41
+    21300084: angela no outline_42
+    21300086: west_neutral
+    21300088: west_walk_0
+    21300090: west_walk_1
+    21300092: west_walk_2
+    21300094: west_walk_3
+    21300096: west_walk_4
+    21300098: west_walk_5
+    21300100: angela no outline_50
+    21300102: angela no outline_51
+    21300104: angela no outline_52
+    21300106: angela no outline_53
+    21300108: angela no outline_54
+    21300110: angela no outline_55
+    21300112: angela no outline_56
+    21300114: angela no outline_57
+    21300116: north_neutral
+    21300118: north_walk_0
+    21300120: north_walk_1
+    21300122: north_walk_2
+    21300124: north_walk_3
+    21300126: north_walk_4
+    21300128: north_walk_5
+    21300130: angela no outline_65
+    21300132: angela no outline_66
+    21300134: angela no outline_67
+    21300136: angela no outline_68
+    21300138: angela no outline_69
+    21300140: angela no outline_70
+    21300142: angela no outline_71
+    21300144: angela no outline_72
+    21300146: angela no outline_73
+    21300148: angela no outline_74
+    21300150: angela no outline_75
+    21300152: angela no outline_76
+    21300154: angela no outline_77
+    21300156: angela no outline_78
+    21300158: angela no outline_79
+    21300160: angela no outline_80
+    21300162: angela no outline_81
+    21300164: angela no outline_82
+    21300166: angela no outline_83
+    21300168: angela no outline_84
+    21300170: angela no outline_85
+    21300172: angela no outline_86
+    21300174: angela no outline_87
+    21300176: angela no outline_88
+    21300178: angela no outline_89
+    21300180: angela no outline_90
+    21300182: angela no outline_91
+    21300184: angela no outline_92
+    21300186: angela no outline_93
+    21300188: angela no outline_94
+    21300190: angela no outline_95
+    21300192: angela no outline_96
+    21300194: angela no outline_97
+    21300196: angela no outline_98
+    21300198: angela no outline_99
+    21300200: angela no outline_100
+    21300202: angela no outline_101
+    21300204: angela no outline_102
+    21300206: angela no outline_103
+    21300208: angela no outline_104
+    21300210: angela no outline_105
+    21300212: angela no outline_106
+    21300214: angela no outline_107
+    21300216: angela no outline_108
+    21300218: angela no outline_109
+    21300220: angela no outline_110
+    21300222: angela no outline_111
+    21300224: angela no outline_112
+    21300226: angela no outline_113
+    21300228: angela no outline_114
+    21300230: angela no outline_115
+    21300232: angela no outline_116
+    21300234: angela no outline_117
+    21300236: angela no outline_118
+    21300238: angela no outline_119
+    21300240: angela no outline_120
+    21300242: angela no outline_121
+    21300244: angela no outline_122
+    21300246: angela no outline_123
+    21300248: angela no outline_124
+    21300250: angela no outline_125
+    21300252: angela no outline_126
+    21300254: angela no outline_127
+    21300256: angela no outline_128
+    21300258: angela no outline_129
+    21300260: angela no outline_130
+    21300262: angela no outline_131
+    21300264: angela no outline_132
+    21300266: angela no outline_133
+    21300268: angela no outline_134
+    21300270: angela no outline_135
+    21300272: angela no outline_136
+    21300274: angela no outline_137
+    21300276: angela no outline_138
+    21300278: angela no outline_139
+    21300280: angela no outline_140
+    21300282: angela no outline_141
+    21300284: angela no outline_142
+    21300286: angela no outline_143
+    21300288: angela no outline_144
+    21300290: angela no outline_145
+    21300292: angela no outline_146
+    21300294: angela no outline_147
+    21300296: angela no outline_148
+    21300298: angela no outline_149
+    21300300: angela no outline_150
+    21300302: angela no outline_151
+    21300304: angela no outline_152
+    21300306: angela no outline_153
+    21300308: angela no outline_154
+    21300310: angela no outline_155
+    21300312: angela no outline_156
+    21300314: angela no outline_157
+    21300316: angela no outline_158
+    21300318: angela no outline_159
+    21300320: angela no outline_160
+    21300322: angela no outline_161
+    21300324: angela no outline_162
+    21300326: angela no outline_163
+    21300328: angela no outline_164
+    21300330: angela no outline_165
+    21300332: angela no outline_166
+    21300334: angela no outline_167
+    21300336: angela no outline_168
+    21300338: angela no outline_169
+    21300340: angela no outline_170
+    21300342: angela no outline_171
+    21300344: angela no outline_172
+    21300346: angela no outline_173
+    21300348: angela no outline_174
+    21300350: angela no outline_175
+    21300352: angela no outline_176
+    21300354: angela no outline_177
+    21300356: angela no outline_178
+    21300358: angela no outline_179
+    21300360: angela no outline_180
+    21300362: angela no outline_181
+    21300364: angela no outline_182
+    21300366: angela no outline_183
+    21300368: angela no outline_184
+    21300370: angela no outline_185
+    21300372: angela no outline_186
+    21300374: angela no outline_187
+    21300376: angela no outline_188
+    21300378: angela no outline_189
+    21300380: angela no outline_190
+    21300382: angela no outline_191
+    21300384: angela no outline_192
+    21300386: angela no outline_193
+    21300388: angela no outline_194
+    21300390: angela no outline_195
+    21300392: angela no outline_196
+    21300394: angela no outline_197
+    21300396: angela no outline_198
+    21300398: angela no outline_199
+    21300400: angela no outline_200
+    21300402: angela no outline_201
+    21300404: angela no outline_202
+    21300406: angela no outline_203
+    21300408: angela no outline_204
+    21300410: angela no outline_205
+    21300412: angela no outline_206
+    21300414: angela no outline_207
+    21300416: angela no outline_208
+    21300418: angela no outline_209
+    21300420: angela no outline_210
+    21300422: angela no outline_211
+    21300424: angela no outline_212
+    21300426: angela no outline_213
+    21300428: angela no outline_214
+    21300430: angela no outline_215
+    21300432: angela no outline_216
+    21300434: angela no outline_217
+    21300436: angela no outline_218
+    21300438: angela no outline_219
+    21300440: angela no outline_220
+    21300442: angela no outline_221
+    21300444: angela no outline_222
+    21300446: angela no outline_223
+    21300448: angela no outline_224
+    21300450: angela no outline_225
+    21300452: angela no outline_226
+    21300454: angela no outline_227
+    21300456: angela no outline_228
+    21300458: angela no outline_229
+    21300460: angela no outline_230
+    21300462: angela no outline_231
+    21300464: angela no outline_232
+    21300466: angela no outline_233
+    21300468: angela no outline_234
+    21300470: angela no outline_235
+    21300472: angela no outline_236
+    21300474: angela no outline_237
+    21300476: angela no outline_238
+    21300478: angela no outline_239
+    21300480: angela no outline_240
+    21300482: angela no outline_241
+    21300484: angela no outline_242
+    21300486: angela no outline_243
+    21300488: angela no outline_244
+    21300490: angela no outline_245
+    21300492: angela no outline_246
+    21300494: angela no outline_247
+    21300496: angela no outline_248
+    21300498: angela no outline_249
+    21300500: angela no outline_250
+    21300502: angela no outline_251
+    21300504: angela no outline_252
+    21300506: angela no outline_253
+    21300508: angela no outline_254
+    21300510: angela no outline_255
+    21300512: angela no outline_256
+    21300514: angela no outline_258
+    21300516: angela no outline_259
+    21300518: angela no outline_260
+    21300520: angela no outline_261
+    21300522: angela no outline_262
+    21300524: angela no outline_263
+    21300526: angela no outline_264
+    21300528: angela no outline_265
+    21300530: angela no outline_266
+    21300532: angela no outline_267
+    21300534: angela no outline_268
+    21300536: angela no outline_269
+    21300538: angela no outline_270
+    21300540: angela no outline_271
+    21300542: angela no outline_272
+    21300544: angela no outline_273
+    21300546: angela no outline_275
+    21300548: angela no outline_276
+    21300550: angela no outline_277
+    21300552: angela no outline_278
+    21300554: angela no outline_279
+    21300556: angela no outline_280
+    21300558: angela no outline_281
+    21300560: south_jump_0
+    21300562: south_jump_1
+    21300564: south_jump_2
+    21300566: south_jump_3
+    21300568: angela no outline_286
+    21300570: angela no outline_287
+    21300572: angela no outline_288
+    21300574: angela no outline_289
+    21300576: angela no outline_290
+    21300578: angela no outline_291
+    21300580: angela no outline_292
+    21300582: angela no outline_293
+    21300584: angela no outline_294
+    21300586: angela no outline_295
+    21300588: angela no outline_296
+    21300590: angela no outline_297
+    21300592: angela no outline_298
+    21300594: angela no outline_299
+    21300596: angela no outline_301
+    21300598: angela no outline_302
+    21300600: angela no outline_303
+    21300602: angela no outline_304
+    21300604: angela no outline_305
+    21300606: angela no outline_306
+    21300608: angela no outline_307
+    21300610: west_jump_0
+    21300612: west_jump_1
+    21300614: west_jump_2
+    21300616: west_jump_3
+    21300618: angela no outline_312
+    21300620: angela no outline_313
+    21300622: angela no outline_314
+    21300624: angela no outline_315
+    21300626: angela no outline_316
+    21300628: angela no outline_317
+    21300630: angela no outline_318
+    21300632: angela no outline_319
+    21300634: angela no outline_320
+    21300636: angela no outline_321
+    21300638: angela no outline_322
+    21300640: angela no outline_323
+    21300642: angela no outline_324
+    21300644: angela no outline_325
+    21300646: angela no outline_326
+    21300648: angela no outline_327
+    21300650: angela no outline_328
+    21300652: angela no outline_329
+    21300654: angela no outline_330
+    21300656: angela no outline_331
+    21300658: angela no outline_332
+    21300660: angela no outline_333
+    21300662: angela no outline_334
+    21300664: angela no outline_335
+    21300666: angela no outline_336
+    21300668: angela no outline_338
+    21300670: east_jump_0
+    21300672: east_jump_1
+    21300674: east_jump_2
+    21300676: east_jump_3
+    21300678: angela no outline_343
+    21300680: angela no outline_344
+    21300682: angela no outline_345
+    21300684: angela no outline_346
+    21300686: angela no outline_347
+    21300688: angela no outline_348
+    21300690: angela no outline_349
+    21300692: angela no outline_350
+    21300694: angela no outline_351
+    21300696: angela no outline_352
+    21300698: north_jump_0
+    21300700: north_jump_1
+    21300702: north_jump_2
+    21300704: north_jump_3
+    21300706: angela no outline_360
+    21300708: angela no outline_361
+    21300710: angela no outline_362
+    21300712: angela no outline_364
+    21300714: angela no outline_366
+    21300716: angela no outline_367
+    21300718: angela no outline_368
+    21300720: angela no outline_369
+    21300722: angela no outline_370
+    21300724: angela no outline_371
+    21300726: angela no outline_372
+    21300728: angela no outline_373
+    21300730: angela no outline_374
+    21300732: angela no outline_375
+    21300734: angela no outline_376
+    21300736: angela no outline_377
+    21300738: angela no outline_378
+    21300740: angela no outline_379
+    21300742: angela no outline_380
+    21300744: angela no outline_381
+    21300746: angela no outline_382
+    21300748: angela no outline_383
+    21300750: angela no outline_384
+    21300752: angela no outline_385
+    21300754: angela no outline_386
+    21300756: angela no outline_387
+    21300758: angela no outline_388
+    21300760: angela no outline_389
+    21300762: angela no outline_390
+    21300764: angela no outline_391
+    21300766: angela no outline_392
+    21300768: angela no outline_393
+    21300770: angela no outline_394
+    21300772: angela no outline_395
+    21300774: angela no outline_396
+    21300776: angela no outline_397
+    21300778: angela no outline_398
+    21300780: angela no outline_399
+    21300782: angela no outline_400
+    21300784: angela no outline_401
+    21300786: angela no outline_402
+    21300788: angela no outline_403
+    21300790: angela no outline_404
+    21300792: angela no outline_405
+    21300794: angela no outline_406
+    21300796: angela no outline_407
+    21300798: angela no outline_408
+    21300800: angela no outline_409
+    21300802: angela no outline_410
+    21300804: angela no outline_411
+    21300806: angela no outline_412
+    21300808: angela no outline_413
+    21300810: angela no outline_414
+    21300812: angela no outline_415
+    21300814: angela no outline_416
+    21300816: angela no outline_417
+    21300818: angela no outline_418
+    21300820: angela no outline_419
+    21300822: angela no outline_257
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: south_neutral
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1084
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: south_walk_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1084
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: south_walk_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1085
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: south_walk_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1085
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: south_walk_3
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1085
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: south_walk_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1085
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: south_walk_5
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1085
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_7
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1085
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_8
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 1085
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_9
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1088
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_10
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1088
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_11
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1087
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_12
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1087
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_13
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1087
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_14
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 1086
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_15
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 1087
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_16
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1087
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_17
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1087
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_18
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1086
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_19
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 1087
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_20
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 1088
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_21
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1087
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: east_neutral
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1045
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: east_walk_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1045
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: east_walk_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1045
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: east_walk_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1045
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: east_walk_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1045
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: east_walk_4
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1045
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: east_walk_5
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1045
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_29
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1045
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_30
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1045
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_31
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1045
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_32
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1044
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_33
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1046
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_34
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1045
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_35
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1044
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_36
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1043
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_37
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1027
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_38
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1027
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_39
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1020
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_40
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1021
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_41
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1023
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_42
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1021
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: west_neutral
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1005
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: west_walk_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1006
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: west_walk_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1005
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: west_walk_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1005
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: west_walk_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1005
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: west_walk_4
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1005
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: west_walk_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1004
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_50
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1004
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_51
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1004
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_52
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1006
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_53
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 1006
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_54
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1002
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_55
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1001
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_56
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 994
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_57
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 993
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: north_neutral
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 963
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: north_walk_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 963
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: north_walk_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 963
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: north_walk_2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 962
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: north_walk_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 963
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: north_walk_4
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 963
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: north_walk_5
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 961
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_65
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 961
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_66
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 961
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_67
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 963
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_68
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 963
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_69
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 955
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_70
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 955
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_71
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 950
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_72
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 950
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_73
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 964
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_74
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 964
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_75
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 963
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_76
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 962
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_77
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 961
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_78
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 912
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_79
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 913
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_80
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 911
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_81
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 911
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_82
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 914
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_83
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 913
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_84
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 913
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_85
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 915
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_86
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 915
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_87
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 916
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_88
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 916
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_89
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 914
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_90
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 914
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_91
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 902
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_92
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 901
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_93
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 901
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_94
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 900
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_95
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 900
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_96
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 899
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_97
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 897
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_98
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 896
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_99
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 866
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_100
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 871
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_101
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 868
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_102
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 869
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_103
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 873
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_104
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 868
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_105
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 868
+        width: 19
+        height: 32
+      alignment: 9
+      pivot: {x: 0.6554806, y: 0.3573265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_106
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 868
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: 0.7237981, y: 0.34053993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_108
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 868
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.6278846, y: 0.34893417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_109
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 870
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_110
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 870
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_111
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 868
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_112
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 873
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_113
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 862
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_114
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 861
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_115
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 861
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_116
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 860
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_117
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 853
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_118
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 853
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_119
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 824
+        width: 19
+        height: 32
+      alignment: 9
+      pivot: {x: 0.34451938, y: 0.34893417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_120
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 824
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: 0.26501083, y: 0.3573246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_121
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 824
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.26021576, y: 0.34893417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_122
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 825
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_123
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 824
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_124
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 854
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_125
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 822
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_126
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 822
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_127
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 822
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_128
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 822
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_129
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 822
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_130
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 822
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_132
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 822
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_133
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 819
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_135
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 815
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_136
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 815
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_137
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 815
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_138
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 815
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_139
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 810
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_140
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 810
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_141
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 761
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_142
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 761
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_143
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 761
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_144
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 765
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_145
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 766
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_146
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 766
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_147
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 766
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_148
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 767
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_149
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 765
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_150
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 765
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_151
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 765
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_152
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 769
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_153
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 769
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_154
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 770
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_155
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 769
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_156
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 771
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_157
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 770
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_158
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 719
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_159
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 718
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_160
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 719
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_161
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 721
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_162
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 721
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_163
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 721
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_164
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 721
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_165
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 722
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_166
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 722
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_167
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 722
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_168
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 721
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_169
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 714
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_170
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 721
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_171
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 722
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_172
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 724
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_173
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 725
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_174
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 723
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_175
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 668
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_176
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 667
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_177
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 667
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_178
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 672
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_179
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 672
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_180
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 673
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_181
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 673
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_182
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 673
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_183
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 674
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_184
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 673
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_185
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 673
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_186
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 671
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_187
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 678
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_188
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 679
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_189
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 681
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_190
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 682
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_191
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 682
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_192
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 621
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_193
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 621
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_194
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 621
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_195
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 620
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_196
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 620
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_197
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 619
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_198
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 619
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_199
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 620
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_200
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 620
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_201
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 620
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_202
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 620
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_203
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 619
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_204
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 625
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_205
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 626
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_206
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 629
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_207
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 632
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_208
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 630
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_209
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 545
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_210
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 542
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_211
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 540
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_212
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 539
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_213
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 547
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_214
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 543
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_215
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 542
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_216
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 549
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_217
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 553
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_218
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 548
+        width: 16
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_219
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 547
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_220
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 549
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_221
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 560
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_222
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 544
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_223
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 559
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_224
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 495
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_225
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 494
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_226
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 513
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_227
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 492
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_228
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 492
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_229
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 487
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_230
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 490
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_231
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 490
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_232
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 497
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_233
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 497
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_234
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 494
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_235
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 498
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_236
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 507
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_237
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 505
+        width: 47
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_238
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 507
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_239
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 448
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_240
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 447
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_241
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 465
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_242
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 444
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_243
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 442
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_244
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 440
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_245
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 443
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_246
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 443
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_247
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 443
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_248
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 443
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_249
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 443
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_250
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 441
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_251
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 450
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_252
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 448
+        width: 47
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_253
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 450
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_254
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 393
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_255
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 391
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_256
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 392
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_258
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 388
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_259
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 390
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_260
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 397
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_261
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 390
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_262
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 392
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_263
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 392
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_264
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 391
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_265
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 391
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_266
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 390
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_267
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 389
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_268
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 393
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_269
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 392
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_270
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 338
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_271
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 338
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_272
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 338
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_273
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 338
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_275
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 338
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_276
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 338
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_277
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 339
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_278
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 338
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_279
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 338
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_280
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 338
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_281
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 337
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: south_jump_0
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 334
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: south_jump_1
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 335
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: south_jump_2
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 335
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: south_jump_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 338
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_286
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 338
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_287
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 337
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_288
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 338
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_289
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 337
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_290
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 337
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_291
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 336
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_292
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 336
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_293
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 336
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_294
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 333
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_295
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 336
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_296
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 290
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_297
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 290
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_298
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 290
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_299
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 290
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_301
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 290
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_302
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 290
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_303
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 285
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_304
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 285
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_305
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 285
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_306
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 285
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_307
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 284
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: west_jump_0
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 301
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: west_jump_1
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 301
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: west_jump_2
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 301
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: west_jump_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 301
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_312
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 312
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_313
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 312
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_314
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 312
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_315
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 313
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_316
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 312
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_317
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 311
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_318
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 312
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_319
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 312
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_320
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 312
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_321
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 311
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_322
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 290
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_323
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 290
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_324
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 290
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_325
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 291
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_326
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 289
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_327
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 289
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_328
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 288
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_329
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 289
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_330
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 287
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_331
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 284
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_332
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 243
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_333
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 243
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_334
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 243
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_335
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 242
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_336
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 242
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_338
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 242
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: east_jump_0
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 268
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: east_jump_1
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 268
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: east_jump_2
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 268
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: east_jump_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 268
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_343
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 267
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_344
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 267
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_345
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 267
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_346
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 267
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_347
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 267
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_348
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 267
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_349
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 267
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_350
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 267
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_351
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 255
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_352
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 255
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: north_jump_0
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 229
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: north_jump_1
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 232
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: north_jump_2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 230
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: north_jump_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 229
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_360
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 198
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_361
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 198
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_362
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 198
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_364
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 197
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_366
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 195
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_367
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 216
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_368
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 215
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_369
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 215
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_370
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 214
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_371
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 214
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_372
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 215
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_373
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 223
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_374
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 223
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_375
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 223
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_376
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 223
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_377
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 223
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_378
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 227
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_379
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 205
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_380
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 173
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_381
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 172
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_382
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 171
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_383
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 171
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_384
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 170
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_385
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 166
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_386
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 164
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_387
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 181
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_388
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 151
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_389
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 111
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_390
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 113
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_391
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 109
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_392
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 112
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_393
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 117
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_394
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 116
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_395
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 110
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_396
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 107
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_397
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 105
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_398
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 99
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_399
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 98
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_400
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 158
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_401
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_402
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 102
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_403
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 101
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_404
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 91
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_405
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 16
+        width: 319
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_406
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 64
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_407
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 63
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_408
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 62
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_409
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 61
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_410
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 61
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_411
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 60
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_412
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 57
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_413
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 39
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_414
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 39
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_415
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 39
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_416
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 38
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_417
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 38
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_418
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 37
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_419
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 34
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: angela no outline_257
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 197
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
