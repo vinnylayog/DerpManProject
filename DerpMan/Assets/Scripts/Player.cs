@@ -3,15 +3,7 @@ using System.Collections;
 
 public class Player : MonoBehaviour 
 {
-	private enum ORIENTATION 
-	{
-		LEFT,
-		RIGHT,
-
-		MAX,
-	}
-
-	private ORIENTATION 	m_orientation 		= ORIENTATION.RIGHT;
+	private InputManager.DIRECTION m_prevOrient 		= InputManager.DIRECTION.NEUTRAL;
 
 	private GameObject		m_spriteObj			= null;
 	private GameObject		m_colliderObj		= null;
@@ -148,11 +140,11 @@ public class Player : MonoBehaviour
 
 		m_prvPosition = m_thisTransform.position;
 
-		_CalculateX(GetKeyDirection());
+		_CalculateX(GetInputAlways());
 
 		_CheckGround();
 
-		_CalculateY(GetKeyDownDirection());
+		_CalculateY(GetInputDown());
 
 
 		m_newPosition.x = m_thisTransform.position.x + m_moveX;
@@ -169,7 +161,7 @@ public class Player : MonoBehaviour
 		float currFrame_decelX = DECEL_X * Time.fixedDeltaTime;
 
 		// Inline Input
-		if (GetKeyDirection() != InputManager.DIRECTION.NEUTRAL)
+		if (GetInputAlways() != InputManager.DIRECTION.NEUTRAL)
 		{
 			// check to see if you walked off a cliff
 			if (_IsNewLocationValid(InputManager.DIRECTION.DOWN))
@@ -355,14 +347,16 @@ public class Player : MonoBehaviour
 		MAX,
 	}
 
-	private InputManager.DIRECTION GetKeyDirection ()
+	private InputManager.DIRECTION GetInputAlways ()
 	{
-		return InputManager.Instance.GetDirection (m_playerID);
+		m_prevOrient = InputManager.Instance.GetInputAlways (m_playerID);
+		return m_prevOrient;
 	}
 
-	private InputManager.DIRECTION GetKeyDownDirection ()
+	private InputManager.DIRECTION GetInputDown ()
 	{
-		return InputManager.Instance.GetKey (m_playerID);
+		m_prevOrient = InputManager.Instance.GetInputDown(m_playerID);
+		return m_prevOrient;
 	}
 
 	#endregion // Movement
@@ -376,23 +370,42 @@ public class Player : MonoBehaviour
 		if (m_playerAnim == null)
 			return;
 
-		InputManager.DIRECTION charDirection = InputManager.Instance.GetDirection(m_playerID);
-		switch (charDirection)
+		InputManager.DIRECTION charDirection = InputManager.Instance.GetInputAlways(m_playerID);
+		if (charDirection != InputManager.DIRECTION.NEUTRAL)
 		{
-		case InputManager.DIRECTION.DOWN:
-			m_playerAnim.SetInteger("Direction", 0);
-			break;
-		case InputManager.DIRECTION.LEFT:
-			m_playerAnim.SetInteger("Direction", 1);
-			break;
-		case InputManager.DIRECTION.UP:
-			m_playerAnim.SetInteger("Direction", 2);
-			break;
-		case InputManager.DIRECTION.RIGHT:
-			m_playerAnim.SetInteger("Direction", 3);
-			break;
-		default:
-			break;
+			switch (charDirection)
+			{
+			case InputManager.DIRECTION.DOWN:
+				m_playerAnim.SetInteger("Direction", 0);
+				break;
+			case InputManager.DIRECTION.LEFT:
+				m_playerAnim.SetInteger("Direction", 1);
+				break;
+			case InputManager.DIRECTION.UP:
+				m_playerAnim.SetInteger("Direction", 2);
+				break;
+			case InputManager.DIRECTION.RIGHT:
+				m_playerAnim.SetInteger("Direction", 3);
+				break;
+			default:
+				break;
+			}
+		}
+		else
+		{
+			Debug.Log("FIX MY POOP");
+			switch (m_prevOrient)
+			{
+			case InputManager.DIRECTION.DOWN:
+				
+				break;
+			case InputManager.DIRECTION.LEFT:
+				break;
+			case InputManager.DIRECTION.RIGHT:
+				break;
+			case InputManager.DIRECTION.UP:
+				break;
+			}
 		}
 	}
 

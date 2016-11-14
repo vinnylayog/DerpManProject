@@ -1,0 +1,3383 @@
+fileFormatVersion: 2
+guid: 5a138b3b4beba694189b2e9186cd3a9c
+timeCreated: 1479106689
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: seikendensetsu3_duran_sheet_0
+    21300002: seikendensetsu3_duran_sheet_1
+    21300004: seikendensetsu3_duran_sheet_2
+    21300006: seikendensetsu3_duran_sheet_3
+    21300008: seikendensetsu3_duran_sheet_4
+    21300010: seikendensetsu3_duran_sheet_5
+    21300012: seikendensetsu3_duran_sheet_6
+    21300014: seikendensetsu3_duran_sheet_7
+    21300016: seikendensetsu3_duran_sheet_8
+    21300018: seikendensetsu3_duran_sheet_9
+    21300020: seikendensetsu3_duran_sheet_10
+    21300022: seikendensetsu3_duran_sheet_11
+    21300024: seikendensetsu3_duran_sheet_12
+    21300026: seikendensetsu3_duran_sheet_13
+    21300028: seikendensetsu3_duran_sheet_14
+    21300030: seikendensetsu3_duran_sheet_15
+    21300032: seikendensetsu3_duran_sheet_16
+    21300034: seikendensetsu3_duran_sheet_17
+    21300036: seikendensetsu3_duran_sheet_18
+    21300038: seikendensetsu3_duran_sheet_19
+    21300040: seikendensetsu3_duran_sheet_20
+    21300042: seikendensetsu3_duran_sheet_21
+    21300044: seikendensetsu3_duran_sheet_22
+    21300046: seikendensetsu3_duran_sheet_23
+    21300048: seikendensetsu3_duran_sheet_24
+    21300050: seikendensetsu3_duran_sheet_25
+    21300052: seikendensetsu3_duran_sheet_26
+    21300054: seikendensetsu3_duran_sheet_27
+    21300056: seikendensetsu3_duran_sheet_28
+    21300058: seikendensetsu3_duran_sheet_29
+    21300060: seikendensetsu3_duran_sheet_30
+    21300062: seikendensetsu3_duran_sheet_31
+    21300064: seikendensetsu3_duran_sheet_32
+    21300066: seikendensetsu3_duran_sheet_33
+    21300068: seikendensetsu3_duran_sheet_34
+    21300070: seikendensetsu3_duran_sheet_35
+    21300072: seikendensetsu3_duran_sheet_36
+    21300074: seikendensetsu3_duran_sheet_37
+    21300076: seikendensetsu3_duran_sheet_38
+    21300078: seikendensetsu3_duran_sheet_39
+    21300080: seikendensetsu3_duran_sheet_40
+    21300082: seikendensetsu3_duran_sheet_41
+    21300084: seikendensetsu3_duran_sheet_42
+    21300086: seikendensetsu3_duran_sheet_43
+    21300088: seikendensetsu3_duran_sheet_44
+    21300090: seikendensetsu3_duran_sheet_45
+    21300092: seikendensetsu3_duran_sheet_46
+    21300094: seikendensetsu3_duran_sheet_47
+    21300096: seikendensetsu3_duran_sheet_48
+    21300098: seikendensetsu3_duran_sheet_49
+    21300100: seikendensetsu3_duran_sheet_50
+    21300102: seikendensetsu3_duran_sheet_51
+    21300104: seikendensetsu3_duran_sheet_52
+    21300106: seikendensetsu3_duran_sheet_53
+    21300108: seikendensetsu3_duran_sheet_54
+    21300110: seikendensetsu3_duran_sheet_55
+    21300112: seikendensetsu3_duran_sheet_56
+    21300114: seikendensetsu3_duran_sheet_57
+    21300116: seikendensetsu3_duran_sheet_58
+    21300118: seikendensetsu3_duran_sheet_59
+    21300120: seikendensetsu3_duran_sheet_60
+    21300122: seikendensetsu3_duran_sheet_61
+    21300124: seikendensetsu3_duran_sheet_62
+    21300126: seikendensetsu3_duran_sheet_63
+    21300128: seikendensetsu3_duran_sheet_64
+    21300130: seikendensetsu3_duran_sheet_65
+    21300132: seikendensetsu3_duran_sheet_66
+    21300134: seikendensetsu3_duran_sheet_67
+    21300136: seikendensetsu3_duran_sheet_68
+    21300138: seikendensetsu3_duran_sheet_69
+    21300140: seikendensetsu3_duran_sheet_70
+    21300142: seikendensetsu3_duran_sheet_71
+    21300144: seikendensetsu3_duran_sheet_72
+    21300146: seikendensetsu3_duran_sheet_73
+    21300148: seikendensetsu3_duran_sheet_74
+    21300150: seikendensetsu3_duran_sheet_75
+    21300152: seikendensetsu3_duran_sheet_76
+    21300154: seikendensetsu3_duran_sheet_77
+    21300156: seikendensetsu3_duran_sheet_78
+    21300158: seikendensetsu3_duran_sheet_79
+    21300160: seikendensetsu3_duran_sheet_80
+    21300162: seikendensetsu3_duran_sheet_81
+    21300164: seikendensetsu3_duran_sheet_82
+    21300166: seikendensetsu3_duran_sheet_83
+    21300168: seikendensetsu3_duran_sheet_84
+    21300170: seikendensetsu3_duran_sheet_85
+    21300172: seikendensetsu3_duran_sheet_86
+    21300174: seikendensetsu3_duran_sheet_87
+    21300176: seikendensetsu3_duran_sheet_88
+    21300178: seikendensetsu3_duran_sheet_89
+    21300180: seikendensetsu3_duran_sheet_90
+    21300182: seikendensetsu3_duran_sheet_91
+    21300184: seikendensetsu3_duran_sheet_92
+    21300186: seikendensetsu3_duran_sheet_93
+    21300188: seikendensetsu3_duran_sheet_94
+    21300190: seikendensetsu3_duran_sheet_95
+    21300192: seikendensetsu3_duran_sheet_96
+    21300194: seikendensetsu3_duran_sheet_97
+    21300196: seikendensetsu3_duran_sheet_98
+    21300198: seikendensetsu3_duran_sheet_99
+    21300200: seikendensetsu3_duran_sheet_100
+    21300202: seikendensetsu3_duran_sheet_101
+    21300204: seikendensetsu3_duran_sheet_102
+    21300206: seikendensetsu3_duran_sheet_103
+    21300208: seikendensetsu3_duran_sheet_104
+    21300210: seikendensetsu3_duran_sheet_105
+    21300212: seikendensetsu3_duran_sheet_106
+    21300214: seikendensetsu3_duran_sheet_107
+    21300216: seikendensetsu3_duran_sheet_108
+    21300218: seikendensetsu3_duran_sheet_109
+    21300220: seikendensetsu3_duran_sheet_110
+    21300222: seikendensetsu3_duran_sheet_111
+    21300224: seikendensetsu3_duran_sheet_112
+    21300226: seikendensetsu3_duran_sheet_113
+    21300228: seikendensetsu3_duran_sheet_114
+    21300230: seikendensetsu3_duran_sheet_115
+    21300232: seikendensetsu3_duran_sheet_116
+    21300234: seikendensetsu3_duran_sheet_117
+    21300236: seikendensetsu3_duran_sheet_118
+    21300238: seikendensetsu3_duran_sheet_119
+    21300240: seikendensetsu3_duran_sheet_120
+    21300242: seikendensetsu3_duran_sheet_121
+    21300244: seikendensetsu3_duran_sheet_122
+    21300246: seikendensetsu3_duran_sheet_123
+    21300248: seikendensetsu3_duran_sheet_124
+    21300250: seikendensetsu3_duran_sheet_125
+    21300252: seikendensetsu3_duran_sheet_126
+    21300254: seikendensetsu3_duran_sheet_127
+    21300256: seikendensetsu3_duran_sheet_128
+    21300258: seikendensetsu3_duran_sheet_129
+    21300260: seikendensetsu3_duran_sheet_130
+    21300262: seikendensetsu3_duran_sheet_131
+    21300264: seikendensetsu3_duran_sheet_132
+    21300266: seikendensetsu3_duran_sheet_133
+    21300268: seikendensetsu3_duran_sheet_134
+    21300270: seikendensetsu3_duran_sheet_135
+    21300272: seikendensetsu3_duran_sheet_136
+    21300274: seikendensetsu3_duran_sheet_137
+    21300276: seikendensetsu3_duran_sheet_138
+    21300278: seikendensetsu3_duran_sheet_139
+    21300280: seikendensetsu3_duran_sheet_140
+    21300282: seikendensetsu3_duran_sheet_141
+    21300284: seikendensetsu3_duran_sheet_142
+    21300286: seikendensetsu3_duran_sheet_143
+    21300288: seikendensetsu3_duran_sheet_144
+    21300290: seikendensetsu3_duran_sheet_145
+    21300292: seikendensetsu3_duran_sheet_146
+    21300294: seikendensetsu3_duran_sheet_147
+    21300296: seikendensetsu3_duran_sheet_148
+    21300298: seikendensetsu3_duran_sheet_149
+    21300300: seikendensetsu3_duran_sheet_150
+    21300302: seikendensetsu3_duran_sheet_151
+    21300304: seikendensetsu3_duran_sheet_152
+    21300306: seikendensetsu3_duran_sheet_153
+    21300308: seikendensetsu3_duran_sheet_154
+    21300310: seikendensetsu3_duran_sheet_155
+    21300312: seikendensetsu3_duran_sheet_156
+    21300314: seikendensetsu3_duran_sheet_157
+    21300316: seikendensetsu3_duran_sheet_158
+    21300318: walk_h_combat_00
+    21300320: seikendensetsu3_duran_sheet_160
+    21300322: seikendensetsu3_duran_sheet_161
+    21300324: seikendensetsu3_duran_sheet_162
+    21300326: seikendensetsu3_duran_sheet_163
+    21300328: seikendensetsu3_duran_sheet_164
+    21300330: seikendensetsu3_duran_sheet_165
+    21300332: seikendensetsu3_duran_sheet_166
+    21300334: seikendensetsu3_duran_sheet_167
+    21300336: walk_h_combat_01
+    21300338: seikendensetsu3_duran_sheet_169
+    21300340: seikendensetsu3_duran_sheet_170
+    21300342: seikendensetsu3_duran_sheet_171
+    21300344: seikendensetsu3_duran_sheet_172
+    21300346: seikendensetsu3_duran_sheet_173
+    21300348: seikendensetsu3_duran_sheet_174
+    21300350: seikendensetsu3_duran_sheet_175
+    21300352: seikendensetsu3_duran_sheet_176
+    21300354: seikendensetsu3_duran_sheet_177
+    21300356: walk_h_combat_02
+    21300358: seikendensetsu3_duran_sheet_179
+    21300360: seikendensetsu3_duran_sheet_180
+    21300362: seikendensetsu3_duran_sheet_181
+    21300364: seikendensetsu3_duran_sheet_182
+    21300366: seikendensetsu3_duran_sheet_183
+    21300368: seikendensetsu3_duran_sheet_184
+    21300370: seikendensetsu3_duran_sheet_185
+    21300372: seikendensetsu3_duran_sheet_186
+    21300374: walk_h_combat_03
+    21300376: seikendensetsu3_duran_sheet_188
+    21300378: seikendensetsu3_duran_sheet_189
+    21300380: seikendensetsu3_duran_sheet_190
+    21300382: seikendensetsu3_duran_sheet_191
+    21300384: seikendensetsu3_duran_sheet_192
+    21300386: seikendensetsu3_duran_sheet_193
+    21300388: seikendensetsu3_duran_sheet_194
+    21300390: seikendensetsu3_duran_sheet_195
+    21300392: walk_h_combat_04
+    21300394: seikendensetsu3_duran_sheet_197
+    21300396: seikendensetsu3_duran_sheet_198
+    21300398: seikendensetsu3_duran_sheet_199
+    21300400: seikendensetsu3_duran_sheet_200
+    21300402: seikendensetsu3_duran_sheet_201
+    21300404: seikendensetsu3_duran_sheet_202
+    21300406: seikendensetsu3_duran_sheet_203
+    21300408: seikendensetsu3_duran_sheet_204
+    21300410: walk_h_combat_05
+    21300412: seikendensetsu3_duran_sheet_206
+    21300414: seikendensetsu3_duran_sheet_207
+    21300416: seikendensetsu3_duran_sheet_208
+    21300418: seikendensetsu3_duran_sheet_209
+    21300420: seikendensetsu3_duran_sheet_210
+    21300422: seikendensetsu3_duran_sheet_211
+    21300424: seikendensetsu3_duran_sheet_212
+    21300426: seikendensetsu3_duran_sheet_213
+    21300428: walk_h_combat_06
+    21300430: seikendensetsu3_duran_sheet_215
+    21300432: seikendensetsu3_duran_sheet_216
+    21300434: seikendensetsu3_duran_sheet_217
+    21300436: seikendensetsu3_duran_sheet_218
+    21300438: seikendensetsu3_duran_sheet_219
+    21300440: seikendensetsu3_duran_sheet_220
+    21300442: seikendensetsu3_duran_sheet_221
+    21300444: seikendensetsu3_duran_sheet_222
+    21300446: seikendensetsu3_duran_sheet_223
+    21300448: seikendensetsu3_duran_sheet_224
+    21300450: seikendensetsu3_duran_sheet_225
+    21300452: seikendensetsu3_duran_sheet_226
+    21300454: seikendensetsu3_duran_sheet_227
+    21300456: seikendensetsu3_duran_sheet_228
+    21300458: seikendensetsu3_duran_sheet_229
+    21300460: seikendensetsu3_duran_sheet_230
+    21300462: seikendensetsu3_duran_sheet_231
+    21300464: seikendensetsu3_duran_sheet_232
+    21300466: seikendensetsu3_duran_sheet_233
+    21300468: seikendensetsu3_duran_sheet_234
+    21300470: seikendensetsu3_duran_sheet_235
+    21300472: seikendensetsu3_duran_sheet_236
+    21300474: seikendensetsu3_duran_sheet_237
+    21300476: seikendensetsu3_duran_sheet_238
+    21300478: seikendensetsu3_duran_sheet_239
+    21300480: seikendensetsu3_duran_sheet_240
+    21300482: seikendensetsu3_duran_sheet_241
+    21300484: seikendensetsu3_duran_sheet_242
+    21300486: seikendensetsu3_duran_sheet_243
+    21300488: seikendensetsu3_duran_sheet_244
+    21300490: seikendensetsu3_duran_sheet_245
+    21300492: seikendensetsu3_duran_sheet_246
+    21300494: seikendensetsu3_duran_sheet_247
+    21300496: seikendensetsu3_duran_sheet_248
+    21300498: seikendensetsu3_duran_sheet_249
+    21300500: seikendensetsu3_duran_sheet_250
+    21300502: seikendensetsu3_duran_sheet_251
+    21300504: seikendensetsu3_duran_sheet_252
+    21300506: seikendensetsu3_duran_sheet_253
+    21300508: seikendensetsu3_duran_sheet_254
+    21300510: seikendensetsu3_duran_sheet_255
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1253
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1261
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1261
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1260
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1259
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1265
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1261
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1261
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1262
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1210
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1210
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1211
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1211
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1211
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1211
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1211
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1211
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1211
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1210
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1212
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1161
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1153
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1161
+        width: 34
+        height: 31
+      alignment: 9
+      pivot: {x: 0.6972764, y: 0.26599514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1159
+        width: 31
+        height: 34
+      alignment: 9
+      pivot: {x: 0.65739685, y: 0.3270874}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1161
+        width: 25
+        height: 31
+      alignment: 9
+      pivot: {x: 0.30284545, y: 0.25801334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1161
+        width: 25
+        height: 31
+      alignment: 9
+      pivot: {x: 0.30561647, y: 0.25102776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1160
+        width: 22
+        height: 33
+      alignment: 9
+      pivot: {x: 0.31809166, y: 0.2401308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1162
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1162
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1111
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1111
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1111
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1110
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1110
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1111
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1111
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1111
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1111
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1061
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1061
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1061
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1060
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1060
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1061
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1056
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1061
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1059
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1011
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1010
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1010
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1011
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1009
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1007
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1015
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1016
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1004
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 960
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 960
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 960
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 960
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 960
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 960
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 961
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 961
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 958
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 910
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 911
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 911
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 909
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 910
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 911
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 906
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 908
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 908
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 861
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 861
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 861
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 859
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 862
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 862
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 856
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 857
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 857
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 810
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 811
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 810
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 809
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 812
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 812
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 810
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 810
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 811
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 760
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_100
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 761
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_101
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 761
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_102
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 760
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_103
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 762
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_104
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 763
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_105
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 761
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_106
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 762
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_107
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 760
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_108
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 711
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_109
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 711
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_110
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 711
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_111
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 703
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_112
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 703
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_113
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 703
+        width: 16
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_114
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 706
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_115
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 704
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_116
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 705
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_117
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 660
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_118
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 661
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_119
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 660
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_120
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 652
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_121
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 651
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_122
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 652
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_124
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 653
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_125
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 654
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_127
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 661
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_134
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 611
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_135
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 611
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_136
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 611
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_138
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 596
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_139
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 596
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_142
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 596
+        width: 18
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_143
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 610
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_144
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 612
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_145
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 611
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_146
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 561
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_147
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 561
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_148
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 561
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_149
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 560
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_150
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 561
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_151
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 561
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_152
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 558
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_153
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 562
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_154
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 562
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_155
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 513
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_156
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 512
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_157
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 510
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_158
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 511
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: walk_h_combat_00
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 511
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_160
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 511
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_161
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 510
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_162
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 512
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_163
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 504
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_164
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 461
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_165
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 461
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_166
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 461
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_167
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 460
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: walk_h_combat_01
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 460
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_169
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 460
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_170
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 456
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_171
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 463
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_173
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 454
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_174
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 411
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_175
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 411
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_176
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 411
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_177
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 409
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: walk_h_combat_02
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 411
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_179
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 411
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_180
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 411
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_181
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 410
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_182
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 412
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_183
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 363
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_184
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 362
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_185
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 360
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_186
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 361
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: walk_h_combat_03
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 361
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_188
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 361
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_189
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 363
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_190
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 364
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_191
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 360
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_192
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 311
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_193
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 311
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_194
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 311
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_195
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 311
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: walk_h_combat_04
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 311
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_197
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 310
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_198
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 304
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_199
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 313
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_200
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 305
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_201
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 261
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_202
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 260
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_203
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 261
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_204
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 261
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: walk_h_combat_05
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 261
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_206
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 260
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_207
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 259
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_208
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 262
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_209
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 261
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_210
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 210
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_211
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 210
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_212
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 210
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_213
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 211
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: walk_h_combat_06
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 210
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_215
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 211
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_216
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 211
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_217
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 212
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_218
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 211
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_219
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 160
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_220
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 160
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_221
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 160
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_222
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 163
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_223
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 161
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_224
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 160
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_225
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 162
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_226
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 161
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_227
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 162
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_228
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 110
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_229
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 110
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_230
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 110
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_231
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 111
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_232
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 109
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_233
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 111
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_234
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 106
+        width: 19
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_236
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 106
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_237
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 110
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_238
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 62
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_239
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 61
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_240
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 60
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_241
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 59
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_242
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 61
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_243
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 61
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_244
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 55
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_245
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 63
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_246
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 56
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_247
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 13
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_248
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 11
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_249
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 11
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_250
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 13
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_251
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 12
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_252
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 10
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_253
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 4
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_254
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 11
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: seikendensetsu3_duran_sheet_255
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 20
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
