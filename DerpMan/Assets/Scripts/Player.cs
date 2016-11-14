@@ -25,6 +25,9 @@ public class Player : MonoBehaviour
 	private int 			m_playerID			= 0;
 	private bool			m_bIsFalling		= true;
 
+	private float			m_vertRaycastDist	= 0f;
+	private	float			m_horiRaycastDist	= 0f;
+
 	// For efficiency
 	private int m_layerMask = 0;
 
@@ -89,6 +92,9 @@ public class Player : MonoBehaviour
 		int layerToCheck = 8;
 
 		m_layerMask = 1 << 8;
+
+		m_vertRaycastDist = m_playerCollider.bounds.extents.y + Mathf.Abs(m_playerCollider.offset.y);
+		m_horiRaycastDist = m_playerCollider.bounds.extents.x + Mathf.Abs(m_playerCollider.offset.x);
 	}
 
 	public void ManualUpdate ()
@@ -153,6 +159,8 @@ public class Player : MonoBehaviour
 		m_newPosition.y = m_thisTransform.position.y + m_moveY;
 
 		m_thisTransform.Translate(m_moveX, m_moveY, 0f);
+
+
 	}
 
 	private void _CalculateX (InputManager.DIRECTION input)
@@ -161,6 +169,15 @@ public class Player : MonoBehaviour
 		float currFrame_decelX = DECEL_X * Time.fixedDeltaTime;
 
 		// Inline Input
+		if (GetKeyDirection() != InputManager.DIRECTION.NEUTRAL)
+		{
+			// check to see if you walked off a cliff
+			if (_IsNewLocationValid(InputManager.DIRECTION.DOWN))
+			{
+				m_bIsJumping = true;
+				m_bIsFalling = true;
+			}
+		}
 		switch (input) 
 		{
 		case InputManager.DIRECTION.LEFT:
@@ -239,50 +256,90 @@ public class Player : MonoBehaviour
 		m_moveY = Mathf.Clamp(m_moveY, -FALL_LIMIT, FALL_LIMIT);
 	}
 
+	/// <summary>
+	/// Predicts to see if the new location is valid for collision by scanning all directions through raycast.
+	/// </summary>
+	private bool _IsNewLocationValid (InputManager.DIRECTION direction, params InputManager.DIRECTION[] directionValues)//(InputManager.DIRECTION direction, params InputManager.DIRECTION[] directionValues)
+	{
+		/*
+		for (int i = -1; i < directionValues; i++)
+		{
+			if (i == -1)
+			{
+				if (_IsNewLocationValid(direction);
+			}
+			else
+			{
+
+			}
+		}
+		return true;
+		*/
+		return true;
+	}
+
+	/// <summary>
+	/// Predicts to see if the new location is valid for collision by scanning one directions through raycast.
+	/// </summary>
 	private bool _IsNewLocationValid (InputManager.DIRECTION direction)
 	{
-		Vector2 rectPosition 	= m_playerCollider.transform.position;
-		Vector2 rectSize 		= Vector2.zero; //new Vector2(m_playerCollider.bounds.size.x, m_playerCollider.bounds.size.y);
+		RaycastHit2D hit = RaycastAtDirection(direction);
+
+		if (hit != null && hit.collider != null)
+		if (hit.collider.tag == "Stage")
+		{
+			if (direction == InputManager.DIRECTION.LEFT || direction == InputManager.DIRECTION.RIGHT)
+			{
+				m_thisTransform.position = new Vector2(m_thisTransform.position.x, hit.collider.gameObject.transform.position.y + m_horiRaycastDist + hit.collider.bounds.extents.y + hit.collider.offset.x);
+			}
+			else
+			// DIRECTION.UP AND DOWN
+			{
+				float colliderYRadius = hit.collider.bounds.extents.y;
+				float colliderCenter = hit.collider.gameObject.transform.position.y + (hit.collider.offset.y * hit.transform.localScale.y);
+				float yPos = colliderCenter + colliderYRadius + m_vertRaycastDist;// + 
+				m_thisTransform.position = new Vector2(m_thisTransform.position.x, yPos);
+			}
+			return false;
+		}
+		return true;
+	}
+
+	private RaycastHit2D RaycastAtDirection (InputManager.DIRECTION direction)
+	{
+		Vector2 rectSize 		= Vector2.zero; 
 		Vector2 castDirection 	= Vector2.zero;
-		Rect 	newColliderZone = new Rect(rectPosition, rectSize); 
-		float 	castDistance	= 0f;
+		float 	castDistance 	= 0.0f;
 
 		switch (direction)
 		{
 		case InputManager.DIRECTION.DOWN:
 			castDirection = Vector2.down;
 			rectSize.x = m_playerCollider.bounds.size.x;
-			castDistance = m_playerCollider.bounds.extents.y + Mathf.Abs(m_playerCollider.offset.y);
+			castDistance = m_vertRaycastDist;
 			break;
 		case InputManager.DIRECTION.LEFT:
 			castDirection = Vector2.left;
 			rectSize.y = m_playerCollider.bounds.size.y;
-			castDistance = m_playerCollider.bounds.extents.x + Mathf.Abs(m_playerCollider.offset.x);
+			castDistance = m_horiRaycastDist;
 			break;
 		case InputManager.DIRECTION.UP:
 			castDirection = Vector2.up;
 			rectSize.x = m_playerCollider.bounds.size.x;
-			castDistance = m_playerCollider.bounds.extents.y + Mathf.Abs(m_playerCollider.offset.y);
+			castDistance = m_vertRaycastDist;
 			break;
 		case InputManager.DIRECTION.RIGHT:
 			castDirection = Vector2.right;
 			rectSize.y = m_playerCollider.bounds.size.y;
-			castDistance = m_playerCollider.bounds.extents.x + Mathf.Abs(m_playerCollider.offset.x);
+			castDistance = m_horiRaycastDist;
 			break;
 		default:
 			break;
 		}
 
+		RaycastHit2D hit = Physics2D.Raycast(m_newPosition, castDirection, castDistance, m_layerMask);
 
-		RaycastHit2D hit = Physics2D.Raycast(m_newPosition, Vector2.down, castDistance, m_layerMask);
-
-		if (hit != null && hit.collider != null)
-		if (hit.collider.tag == "Stage")
-		{
-			m_thisTransform.position = new Vector2(m_thisTransform.position.x, hit.collider.gameObject.transform.position.y + castDistance + hit.collider.bounds.extents.y);
-			return false;
-		}
-		return true;
+		return hit;
 	}
 
 	private enum DIRECTION
