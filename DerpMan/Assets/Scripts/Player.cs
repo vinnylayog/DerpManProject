@@ -115,10 +115,12 @@ public class Player : MonoBehaviour
 	#region MonoBehaviour Events
 	void _Gama_Start() 
 	{
-		animator = GetComponent();
-		audioSource = GetComponent();
+		animator = GetComponent<Animator>();
+		audioSource = GetComponent<AudioSource>();
 		defaultScale = transform.localScale;
 		groundY = transform.position.y;
+
+		Debug.Log("Poop");
 	}
 
 	void _Gama_Update() 
@@ -272,7 +274,5 @@ public class Player : MonoBehaviour
 		transform.position = newPos;
 	}
 
-	#endregion
-}
 	#endregion // Gamasutra
 }
