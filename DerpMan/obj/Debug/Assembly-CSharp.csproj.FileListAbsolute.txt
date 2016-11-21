@@ -19,3 +19,24 @@ C:\Users\pc asus\Desktop\SecretPrismGames\DerpMan\Temp\bin\Debug\UnityEngine.UI.
 C:\Users\pc asus\Desktop\SecretPrismGames\DerpMan\Temp\bin\Debug\UnityEngine.Networking.xml
 C:\Users\pc asus\Desktop\SecretPrismGames\DerpMan\obj\Debug\Assembly-CSharp.dll
 C:\Users\pc asus\Desktop\SecretPrismGames\DerpMan\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\obj\Debug\Assembly-CSharp.dll
+C:\Users\Marco\Documents\GitHub\DerpManProject\DerpMan\obj\Debug\Assembly-CSharp.pdb

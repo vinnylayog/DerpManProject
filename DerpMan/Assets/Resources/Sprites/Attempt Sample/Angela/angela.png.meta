@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 3da44bb5b90c9124bbe7056aa4fcbb09
-timeCreated: 1479113215
+timeCreated: 1479374937
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -99,16 +99,16 @@ TextureImporter:
     21300184: angela no outline_92
     21300186: angela no outline_93
     21300188: angela no outline_94
-    21300190: angela no outline_95
-    21300192: angela no outline_96
-    21300194: angela no outline_97
-    21300196: angela no outline_98
-    21300198: angela no outline_99
-    21300200: angela no outline_100
-    21300202: angela no outline_101
-    21300204: angela no outline_102
-    21300206: angela no outline_103
-    21300208: angela no outline_104
+    21300190: Angela_PlayFlute_00
+    21300192: Angela_PlayFlute_01
+    21300194: Angela_PlayFlute_02
+    21300196: Angela_PlayFlute_03
+    21300198: East_Run_0
+    21300200: East_Run_1
+    21300202: East_Run_2
+    21300204: East_Run_3
+    21300206: East_Run_4
+    21300208: East_Run_5
     21300210: angela no outline_105
     21300212: angela no outline_106
     21300214: angela no outline_107
@@ -121,14 +121,14 @@ TextureImporter:
     21300228: angela no outline_114
     21300230: angela no outline_115
     21300232: angela no outline_116
-    21300234: angela no outline_117
-    21300236: angela no outline_118
+    21300234: Angela_PlayFlute_04
+    21300236: Angela_PlayFlute_05
     21300238: angela no outline_119
     21300240: angela no outline_120
     21300242: angela no outline_121
     21300244: angela no outline_122
     21300246: angela no outline_123
-    21300248: angela no outline_124
+    21300248: Angela_PlayFlute_06
     21300250: angela no outline_125
     21300252: angela no outline_126
     21300254: angela no outline_127
@@ -143,8 +143,8 @@ TextureImporter:
     21300272: angela no outline_136
     21300274: angela no outline_137
     21300276: angela no outline_138
-    21300278: angela no outline_139
-    21300280: angela no outline_140
+    21300278: Angela_PlayFlute_07
+    21300280: Angela_PlayFlute_08
     21300282: angela no outline_141
     21300284: angela no outline_142
     21300286: angela no outline_143
@@ -1700,7 +1700,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: angela no outline_95
+      name: Angela_PlayFlute_00
       rect:
         serializedVersion: 2
         x: 766
@@ -1713,10 +1713,10 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: angela no outline_96
+      name: Angela_PlayFlute_01
       rect:
         serializedVersion: 2
-        x: 806
+        x: 807
         y: 899
         width: 30
         height: 32
@@ -1726,7 +1726,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: angela no outline_97
+      name: Angela_PlayFlute_02
       rect:
         serializedVersion: 2
         x: 843
@@ -1739,11 +1739,11 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: angela no outline_98
+      name: Angela_PlayFlute_03
       rect:
         serializedVersion: 2
         x: 880
-        y: 896
+        y: 897
         width: 28
         height: 32
       alignment: 0
@@ -1752,7 +1752,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: angela no outline_99
+      name: East_Run_0
       rect:
         serializedVersion: 2
         x: 14
@@ -1765,11 +1765,11 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: angela no outline_100
+      name: East_Run_1
       rect:
         serializedVersion: 2
         x: 45
-        y: 871
+        y: 870
         width: 24
         height: 28
       alignment: 0
@@ -1778,7 +1778,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: angela no outline_101
+      name: East_Run_2
       rect:
         serializedVersion: 2
         x: 81
@@ -1791,7 +1791,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: angela no outline_102
+      name: East_Run_3
       rect:
         serializedVersion: 2
         x: 120
@@ -1804,7 +1804,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: angela no outline_103
+      name: East_Run_4
       rect:
         serializedVersion: 2
         x: 150
@@ -1817,7 +1817,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: angela no outline_104
+      name: East_Run_5
       rect:
         serializedVersion: 2
         x: 186
@@ -1973,7 +1973,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: angela no outline_117
+      name: Angela_PlayFlute_04
       rect:
         serializedVersion: 2
         x: 784
@@ -1986,7 +1986,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: angela no outline_118
+      name: Angela_PlayFlute_05
       rect:
         serializedVersion: 2
         x: 827
@@ -2064,7 +2064,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: angela no outline_124
+      name: Angela_PlayFlute_06
       rect:
         serializedVersion: 2
         x: 872
@@ -2233,7 +2233,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: angela no outline_139
+      name: Angela_PlayFlute_07
       rect:
         serializedVersion: 2
         x: 815
@@ -2246,7 +2246,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: angela no outline_140
+      name: Angela_PlayFlute_08
       rect:
         serializedVersion: 2
         x: 854

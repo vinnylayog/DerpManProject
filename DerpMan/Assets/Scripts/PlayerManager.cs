@@ -15,8 +15,8 @@ public class PlayerManager : MonoBehaviour
 	private Transform 	m_playerOneTransform		= null;
 	private Transform	m_playerTwoTransform		= null;
 
-	private Player		m_playerOne					= null;
-	private Player 		m_playerTwo 				= null;
+	private PlayerOld		m_playerOne					= null;
+	private PlayerOld 		m_playerTwo 				= null;
 
 	private float 		m_gravityStrength 			= 35f;
 	private float		m_jumpSpeed					= 10.0f;
@@ -48,13 +48,8 @@ public class PlayerManager : MonoBehaviour
 	/// </summary>
 	public void ManualUpdate ()
 	{
-		m_playerOne.ManualUpdate();
+		//m_playerOne.ManualUpdate();
 		//m_playerTwo.ManualUpdate ();
-	}
-
-	private void _ApplyGravity ()
-	{
-		//m_playerOneTransform.Translate(0f, -m_gravityStrength*Time.deltaTime, 0f);
 	}
 
 	public bool Initialize ()
@@ -79,7 +74,7 @@ public class PlayerManager : MonoBehaviour
 			return;
 
 		m_playerOneObj = GameObject.Instantiate(m_playerPrefab);
-		m_playerOne = m_playerOneObj.AddComponent<Player>();
+		m_playerOne = m_playerOneObj.AddComponent<PlayerOld>();
 		m_playerOne.assignID (1);
 		m_playerOne.Initialize();
 

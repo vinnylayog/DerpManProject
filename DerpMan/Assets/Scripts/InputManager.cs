@@ -60,6 +60,11 @@ public class InputManager : MonoBehaviour
 		return _GetInputDown (playerID);	
 	}
 
+	public DIRECTION GetInputUp (int playerID)
+	{
+		return _GetInputUp(playerID);
+	}
+
 	private DIRECTION _GetInputAlways (int playerID)
 	{
 		switch (playerID) 
@@ -95,7 +100,8 @@ public class InputManager : MonoBehaviour
 
 	private DIRECTION _GetInputDown (int playerID)
 	{
-		switch (playerID){
+		switch (playerID)
+		{
 		//if (Input.GetKey (KeyCode.S)) { return DIRECTION.DOWN; } // maybe for drop-downs?
 		case 1:
 			if (Input.GetKeyDown (KeyCode.W)) { return DIRECTION.JUMP; }
@@ -113,4 +119,28 @@ public class InputManager : MonoBehaviour
 		return DIRECTION.NEUTRAL;
 	}
 
+	private DIRECTION _GetInputUp (int playerID)
+	{
+		switch (playerID)
+		{
+		//if (Input.GetKey (KeyCode.S)) { return DIRECTION.DOWN; } // maybe for drop-downs?
+		case 1:
+			if (Input.GetKeyUp (KeyCode.W)) { return DIRECTION.UP; }
+			if (Input.GetKeyUp (KeyCode.S)) { return DIRECTION.DOWN; }
+			if (Input.GetKeyUp (KeyCode.A)) { return DIRECTION.LEFT; }
+			if (Input.GetKeyUp (KeyCode.D)) { return DIRECTION.RIGHT; }
+			if (Input.GetKeyUp (KeyCode.Space)) { return DIRECTION.JUMP; }
+			if (Input.GetKeyUp(KeyCode.Joystick1Button0)){ return DIRECTION.JUMP; }
+			break;
+		case 2:
+			if (Input.GetKeyUp(KeyCode.UpArrow)) { return DIRECTION.JUMP; }
+			if (Input.GetKeyUp(KeyCode.Joystick2Button0)){ return DIRECTION.JUMP; }
+			break;
+		default:
+			break;
+
+			//if (Input.GetKeyDown(KeyCode.Joystick1Button0)) { return DIRECTION.JUMP; }
+		}
+		return DIRECTION.NEUTRAL;
+	}
 }

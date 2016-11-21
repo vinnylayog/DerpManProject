@@ -87,6 +87,7 @@ Assets/Scripts/InputManager.cs
 Assets/Scripts/Manager.cs
 Assets/Scripts/Player.cs
 Assets/Scripts/PlayerManager.cs
+Assets/Scripts/PlayerOld.cs
 Assets/Scripts/SoundManager.cs
 Assets/Scripts/SpriteManager.cs
 Assets/Scripts/StageManager.cs

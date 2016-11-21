@@ -1,415 +1,278 @@
-﻿using UnityEngine;
+﻿
+/// <summary>
+/// GAMASUTRA REFERENCE: http://www.gamasutra.com/blogs/JoeStrout/20150807/250646/2D_Animation_Methods_in_Unity.php
+/// METHOD 2: FIRST CODE SECTION
+/// </summary>
+
+
+
+
+
+
+using UnityEngine;
 using System.Collections;
 
 public class Player : MonoBehaviour 
 {
-	private InputManager.DIRECTION m_prevOrient 		= InputManager.DIRECTION.NEUTRAL;
 
-	private GameObject		m_spriteObj			= null;
-	private GameObject		m_colliderObj		= null;
-
-	private	BoxCollider2D	m_playerCollider	= null;
-	private Collider2D 		m_lastCollided 		= null;
-	private Transform 		m_thisTransform 	= null;
-	private Vector2 		m_newPosition 		= Vector2.zero;
-	private Vector2			m_prvPosition		= Vector2.zero;
-
-	private int 			m_playerID			= 0;
-	private bool			m_bIsFalling		= true;
-
-	private float			m_vertRaycastDist	= 0f;
-	private	float			m_horiRaycastDist	= 0f;
-
-	// For efficiency
-	private int m_layerMask = 0;
+	Animation 	m_anim = null;
+	Animator	m_animator = null;
+	AnimationClip	m_walkEast 	= null;
 
 	#region MonoBehavior
-	private void OnTriggerEnter2D (Collider2D col)
-	{
+	// Use this for initialization
+	private void Start () 
+    {
 		/*
-		// ALERT ALERT FIX FIX NOT WORKING BESTLY OPTIMIZE PLS K THANKS
-		if (col.tag == "Stage")
-		{
-			m_lastCollided = col;
-			m_moveDirection.y = 0.0f;
+		GameObject spriteObj = transform.FindChild("sprite").gameObject;
+		m_anim = spriteObj.GetComponent<Animation>();	
+		m_animator = spriteObj.GetComponent<Animator>();
 
-			m_bIsJumping = false;
-			m_moveY = 0f;
-
-			float newYPos = (col.bounds.center.y + col.bounds.extents.y + m_playerCollider.bounds.extents.y) * col.transform.localScale.y - m_playerCollider.offset.y ;
-			m_thisTransform.position = new Vector2(m_thisTransform.position.x, newYPos);
-		}
+		m_walkEast = Resources.Load<AnimationClip>("Sprites/Attempt Sample/Angela/Angela_Walk_East");
+		Debug.Log(m_walkEast);
 		*/
+
+	}
+	
+	// Update is called once per frame
+	private void Update () 
+    {
+		/*
+		// For testing purposes only!
+		if (Input.GetKeyDown(KeyCode.Space))
+		{
+			m_anim.Stop();
+			m_anim.AddClip(m_walkEast, "Walk_East");
+			Debug.Log(m_anim.IsPlaying("Walk_East"));
+			m_anim.Play("Walk_East", PlayMode.StopAll);
+			//m_anim.CrossFade("Walk_East", 1f, PlayMode.StopAll);
+			Debug.Log(m_anim.IsPlaying("Walk_East"));
+		}
+
+		Debug.Log(m_anim.IsPlaying("Walk_East"));
+		*/
+
+
 	}
 	#endregion // MonoBehavior
 
-	public void assignID(int in_ID)
-	{
-		m_playerID = in_ID;	
-		gameObject.name = ("Player " + in_ID);
-	}
-
-	public int getPlayerID()
-	{
-		return m_playerID;
-	}
-
-	private void setMyPosition()
-	{
-		switch (m_playerID)
-		{
-		case 1:
-			transform.position = new Vector3 (-4.0f, 0.0f, 0.0f);
-			break;
-		case 2:
-			transform.position = new Vector3 (4.0f, 0.0f, 0.0f);
-			break;
-		default:
-			break;
-		}
-	}
-
+	#region GameManager
 	public void Initialize ()
-	{
-		m_thisTransform = transform;
-		m_lastCollided = null;
-		setMyPosition();
-
-		m_spriteObj = m_thisTransform.FindChild("sprite").gameObject; 
-		m_colliderObj = m_thisTransform.FindChild("collider").gameObject; 
-		m_playerCollider = m_colliderObj.GetComponent<BoxCollider2D>();
-		m_playerAnim = m_spriteObj.GetComponent<Animator>();
-
-		// Stage Raycasts: Layer Mask. At time of implementation, stage layer is set to 8
-		int layerToCheck = 8;
-
-		m_layerMask = 1 << 8;
-
-		m_vertRaycastDist = m_playerCollider.bounds.extents.y + Mathf.Abs(m_playerCollider.offset.y);
-		m_horiRaycastDist = m_playerCollider.bounds.extents.x + Mathf.Abs(m_playerCollider.offset.x);
-	}
-
-	public void ManualUpdate ()
-	{
-		_ManageAnimation();
-		_ManageMovement();
-	}
-
-	#region Basic Collision Checking - Raycasts
-
-
-	private bool _CheckGround ()
-	{
-		if (!m_bIsJumping)
-			return true;
-
-		if (!_IsNewLocationValid(InputManager.DIRECTION.DOWN))
-		{
-			if (m_bIsFalling)
-			{
-				m_moveY = 0f;
-			}
-			m_bIsJumping = false;
-			return false;
-		}
-
-		return false;
-	}
-
-	#endregion //Basic Collision Checking - Raycasts
-
-
-	#region Movement
-	public void Jump ()
 	{
 		
 	}
 
-	private static 	float ACCEL_X 		= 2f;
-	private static 	float DECEL_X 		= 1.5f;
-	private static	float LIMIT_X 		= 0.2f;
-
-	private 		float m_moveX 		= 0f;
-
-	private void _ManageMovement () 
+	public void ManualUpdate ()
 	{
-		if (m_prvPosition.y > m_thisTransform.position.y)
-		{
-			m_bIsFalling = true;
-		}
-
-		m_prvPosition = m_thisTransform.position;
-
-		_CalculateX(GetInputAlways());
-
-		_CheckGround();
-
-		_CalculateY(GetInputDown());
-
-
-		m_newPosition.x = m_thisTransform.position.x + m_moveX;
-		m_newPosition.y = m_thisTransform.position.y + m_moveY;
-
-		m_thisTransform.Translate(m_moveX, m_moveY, 0f);
-
 
 	}
+	#endregion // GameManager
 
-	private void _CalculateX (InputManager.DIRECTION input)
-	{
-		float currFrame_moveX = ACCEL_X * Time.fixedDeltaTime;
-		float currFrame_decelX = DECEL_X * Time.fixedDeltaTime;
+	#region Gamasutra
 
-		// Inline Input
-		if (GetInputAlways() != InputManager.DIRECTION.NEUTRAL)
-		{
-			// check to see if you walked off a cliff
-			if (_IsNewLocationValid(InputManager.DIRECTION.DOWN))
-			{
-				m_bIsJumping = true;
-				m_bIsFalling = true;
-			}
-		}
-		switch (input) 
-		{
-		case InputManager.DIRECTION.LEFT:
-			if (m_moveX > 0f) 
-			{
-				m_moveX -= currFrame_decelX;
-			} 
-			else 
-			{ 
-				m_moveX -= currFrame_moveX;
-			}
-			break;
-		case InputManager.DIRECTION.RIGHT:
-			if (m_moveX < 0f) 
-			{
-				m_moveX += currFrame_decelX;
-			} 
-			else 
-			{
-				m_moveX += currFrame_moveX;
-			}
-			break;
-		default:
-			if (m_moveX > 0f) {
-				if (m_moveX - currFrame_decelX > 0f) {
-					m_moveX -= currFrame_decelX;
-				} else {
-					m_moveX = 0f;
-				}
-			} 
-			else 
-			if (m_moveX < 0f) 
-			{
-				if (m_moveX < 0f) 
-				{
-					if (m_moveX + currFrame_decelX < 0f) {
-						m_moveX += currFrame_decelX;
-					} 
-					else 
-					{
-						m_moveX = 0f;	
-					}
-				}
-			}
-			break;
-		}
+	public float runSpeed = 4;
+	public float acceleration = 20;
+	public float jumpSpeed = 5;
+	public float gravity = 15;
+	public Vector2 influence = new Vector2(5, 5);
+	public AudioClip[] sounds;
 
-		// speed limit
-		m_moveX = Mathf.Clamp(m_moveX, -LIMIT_X, LIMIT_X);
+	Animator animator;
+	AudioSource audioSource;
+	Vector3 defaultScale;
+	float groundY;
+	bool grounded;
+	float stateStartTime;
+
+	float timeInState {
+		get { return Time.time - stateStartTime; }
 	}
 
-	private bool 	m_bIsJumping 		= true;
+	const string kIdleAnim = "Idle";
+	const string kRunAnim = "Run";
+	const string kJumpStartAnim = "JumpStart";
+	const string kJumpFallAnim = "JumpFall";
+	const string kJumpLandAnim = "JumpLand";
 
-	private static float JUMP_STRENGTH 	= 0.25f;
-	private static float GRAV_STRENGTH 	= 1f;
-	private static float FALL_LIMIT		= 0.8f;
-	private	float 		 m_moveY 		= 0f;
-
-
-	private void _CalculateY (InputManager.DIRECTION input)
+	enum State 
 	{
-		// Receive input and jump
-		if (input == InputManager.DIRECTION.JUMP) 
-		{
-			m_moveY = JUMP_STRENGTH;
-			m_bIsJumping = true;
-		}
-	
+		Idle,
+		RunningRight,
+		RunningLeft,
+		JumpingUp,
+		JumpingDown,
+		Landing
+	}
+	State state;
+	Vector2 velocity;
+	float horzInput;
+	bool jumpJustPressed;
+	bool jumpHeld;
+	int airJumpsDone = 0;
 
-		// if Midair
-		if (m_bIsJumping) 
-		{
-			m_moveY -= GRAV_STRENGTH * Time.deltaTime;
-		}
-
-		m_moveY = Mathf.Clamp(m_moveY, -FALL_LIMIT, FALL_LIMIT);
+	#endregion
+	//--------------------------------------------------------------------------------
+	#region MonoBehaviour Events
+	void _Gama_Start() 
+	{
+		animator = GetComponent();
+		audioSource = GetComponent();
+		defaultScale = transform.localScale;
+		groundY = transform.position.y;
 	}
 
-	/// <summary>
-	/// Predicts to see if the new location is valid for collision by scanning all directions through raycast.
-	/// </summary>
-	private bool _IsNewLocationValid (InputManager.DIRECTION direction, params InputManager.DIRECTION[] directionValues)//(InputManager.DIRECTION direction, params InputManager.DIRECTION[] directionValues)
+	void _Gama_Update() 
 	{
-		/*
-		for (int i = -1; i < directionValues; i++)
-		{
-			if (i == -1)
-			{
-				if (_IsNewLocationValid(direction);
-			}
-			else
-			{
+		// Gather inputs
+		horzInput = Input.GetAxisRaw("Horizontal");
+		jumpJustPressed = Input.GetButtonDown("Jump");
+		jumpHeld = Input.GetButton("Jump");
 
+		// Update state
+		ContinueState();
+
+		// Update position
+		UpdateTransform();
+	}
+
+	#endregion
+	//--------------------------------------------------------------------------------
+	#region Public Methods
+	public void PlaySound(string name) {
+		if (!audioSource.enabled) return;
+		foreach (AudioClip clip in sounds) {
+			if (clip.name == name) {
+				audioSource.clip = clip;
+				audioSource.Play();
+				return;
 			}
 		}
+		Debug.LogWarning(gameObject + ": AudioClip not found: " + name);
+	}
+	#endregion
+	//--------------------------------------------------------------------------------
+	#region Private Methods
+	void SetOrKeepState(State state) {
+		if (this.state == state) return;
+		EnterState(state);
+	}
+
+	void ExitState() {
+	}
+
+	void EnterState(State state) {
+		ExitState();
+		switch (state) {
+		case State.Idle:
+			animator.Play(kIdleAnim);
+			break;
+		case State.RunningLeft:
+			animator.Play(kRunAnim);
+			Face(-1);
+			break;
+		case State.RunningRight:
+			animator.Play(kRunAnim);
+			Face(1);
+			break;
+		case State.JumpingUp:
+			animator.Play(kJumpStartAnim);
+			velocity.y = jumpSpeed;
+			break;
+		case State.JumpingDown:
+			animator.Play(kJumpFallAnim);
+			break;
+		case State.Landing:
+			animator.Play(kJumpLandAnim);
+			airJumpsDone = 0;
+			break;
+		}
+
+		this.state = state;
+		stateStartTime = Time.time;
+	}
+
+	void ContinueState() {
+		switch (state) {
+
+		case State.Idle:
+			RunOrJump();
+			break;
+
+		case State.RunningLeft:
+		case State.RunningRight:
+			if (!RunOrJump()) EnterState(State.Idle);
+			break;
+
+		case State.JumpingUp:
+			if (velocity.y < 0) EnterState(State.JumpingDown);
+			if (jumpJustPressed && airJumpsDone < 1) {
+				EnterState(State.JumpingUp);
+				airJumpsDone++;
+			}
+			break;
+
+		case State.JumpingDown:
+			if (grounded) EnterState(State.Landing);
+			if (jumpJustPressed && airJumpsDone < 1) {
+				EnterState(State.JumpingUp);
+				airJumpsDone++;
+			}
+			break;
+
+		case State.Landing:
+			if (timeInState > 0.2f) EnterState(State.Idle);
+			else if (timeInState > 0.1f) RunOrJump();
+			break;
+		}
+	}
+
+	bool RunOrJump() {
+		if (jumpJustPressed && grounded) SetOrKeepState(State.JumpingUp);
+		else if (horzInput < 0) SetOrKeepState(State.RunningLeft);
+		else if (horzInput > 0) SetOrKeepState(State.RunningRight);
+		else return false;
 		return true;
-		*/
-		return true;
 	}
 
-	/// <summary>
-	/// Predicts to see if the new location is valid for collision by scanning one directions through raycast.
-	/// </summary>
-	private bool _IsNewLocationValid (InputManager.DIRECTION direction)
-	{
-		RaycastHit2D hit = RaycastAtDirection(direction);
 
-		if (hit != null && hit.collider != null)
-		if (hit.collider.tag == "Stage")
-		{
-			if (direction == InputManager.DIRECTION.LEFT || direction == InputManager.DIRECTION.RIGHT)
-			{
-				m_thisTransform.position = new Vector2(m_thisTransform.position.x, hit.collider.gameObject.transform.position.y + m_horiRaycastDist + hit.collider.bounds.extents.y + hit.collider.offset.x);
-			}
-			else
-			// DIRECTION.UP AND DOWN
-			{
-				float colliderYRadius = hit.collider.bounds.extents.y;
-				float colliderCenter = hit.collider.gameObject.transform.position.y + (hit.collider.offset.y * hit.transform.localScale.y);
-				float yPos = colliderCenter + colliderYRadius + m_vertRaycastDist;// + 
-				m_thisTransform.position = new Vector2(m_thisTransform.position.x, yPos);
-			}
-			return false;
-		}
-		return true;
+	void Face(int direction) {
+		transform.localScale = new Vector3(defaultScale.x * direction, defaultScale.y, defaultScale.z);
 	}
 
-	private RaycastHit2D RaycastAtDirection (InputManager.DIRECTION direction)
-	{
-		Vector2 rectSize 		= Vector2.zero; 
-		Vector2 castDirection 	= Vector2.zero;
-		float 	castDistance 	= 0.0f;
+	void UpdateTransform() {
 
-		switch (direction)
-		{
-		case InputManager.DIRECTION.DOWN:
-			castDirection = Vector2.down;
-			rectSize.x = m_playerCollider.bounds.size.x;
-			castDistance = m_vertRaycastDist;
-			break;
-		case InputManager.DIRECTION.LEFT:
-			castDirection = Vector2.left;
-			rectSize.y = m_playerCollider.bounds.size.y;
-			castDistance = m_horiRaycastDist;
-			break;
-		case InputManager.DIRECTION.UP:
-			castDirection = Vector2.up;
-			rectSize.x = m_playerCollider.bounds.size.x;
-			castDistance = m_vertRaycastDist;
-			break;
-		case InputManager.DIRECTION.RIGHT:
-			castDirection = Vector2.right;
-			rectSize.y = m_playerCollider.bounds.size.y;
-			castDistance = m_horiRaycastDist;
-			break;
-		default:
-			break;
-		}
-
-		RaycastHit2D hit = Physics2D.Raycast(m_newPosition, castDirection, castDistance, m_layerMask);
-
-		return hit;
-	}
-
-	private enum DIRECTION
-	{
-		NEUTRAL,
-		LEFT,
-		RIGHT,
-		UP,
-		DOWN,
-
-		JUMP,
-
-		MAX,
-	}
-
-	private InputManager.DIRECTION GetInputAlways ()
-	{
-		m_prevOrient = InputManager.Instance.GetInputAlways (m_playerID);
-		return m_prevOrient;
-	}
-
-	private InputManager.DIRECTION GetInputDown ()
-	{
-		m_prevOrient = InputManager.Instance.GetInputDown(m_playerID);
-		return m_prevOrient;
-	}
-
-	#endregion // Movement
-
-	#region Animation Control
-
-	private Animator m_playerAnim = null;
-
-	private void _ManageAnimation ()
-	{
-		if (m_playerAnim == null)
-			return;
-
-		InputManager.DIRECTION charDirection = InputManager.Instance.GetInputAlways(m_playerID);
-		if (charDirection != InputManager.DIRECTION.NEUTRAL)
-		{
-			switch (charDirection)
-			{
-			case InputManager.DIRECTION.DOWN:
-				m_playerAnim.SetInteger("Direction", 0);
+		if (grounded) {
+			float targetSpeed = 0;
+			switch (state) {
+			case State.RunningLeft:
+				targetSpeed = -runSpeed;
 				break;
-			case InputManager.DIRECTION.LEFT:
-				m_playerAnim.SetInteger("Direction", 1);
-				break;
-			case InputManager.DIRECTION.UP:
-				m_playerAnim.SetInteger("Direction", 2);
-				break;
-			case InputManager.DIRECTION.RIGHT:
-				m_playerAnim.SetInteger("Direction", 3);
-				break;
-			default:
+			case State.RunningRight:
+				targetSpeed = runSpeed;
 				break;
 			}
+			velocity.x = Mathf.MoveTowards(velocity.x, targetSpeed, acceleration * Time.deltaTime);
+		} else {
+			// vertical influence directly counteracts gravity
+			if (jumpHeld) velocity.y += influence.y * Time.deltaTime;
+
+			// horizontal influence is an acceleration towards the target speed
+			// (just like when running, but the acceleration should be much lower)
+			float targetSpeed = horzInput * runSpeed;
+			velocity.x = Mathf.MoveTowards(velocity.x, targetSpeed, influence.x * Time.deltaTime);
 		}
-		else
-		{
-			Debug.Log("FIX MY POOP");
-			switch (m_prevOrient)
-			{
-			case InputManager.DIRECTION.DOWN:
-				
-				break;
-			case InputManager.DIRECTION.LEFT:
-				break;
-			case InputManager.DIRECTION.RIGHT:
-				break;
-			case InputManager.DIRECTION.UP:
-				break;
-			}
-		}
+		velocity.y -= gravity * Time.deltaTime;
+
+		Vector3 newPos = transform.position + (Vector3)(velocity * Time.deltaTime);
+		if (newPos.y < groundY) {
+			newPos.y = groundY;
+			velocity.y = 0;
+			grounded = true;
+		} else grounded = false;
+		transform.position = newPos;
 	}
 
-	#endregion // Animation Control
+	#endregion
 }
-
-
+	#endregion // Gamasutra
+}
